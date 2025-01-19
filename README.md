@@ -27,3 +27,8 @@ The follwoing applications/features are installed when you install this mod:
 - Pixel 9 Official Stock Bootanimation
 - Build prop tweaks from offical crdroid build (I update it on every release)
 - Fixed permissions for included applications etc.
+
+## NOTICE:
+When a new build is released the following things will revert back to stock until i release a updated version of this mod for that build so please be paitent when that happens:
+- Build prop tweaks
+- Pixel 9 Official Stock bootanimation
