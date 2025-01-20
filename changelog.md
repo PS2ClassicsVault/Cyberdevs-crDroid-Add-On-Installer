@@ -1,2 +1,2 @@
-## Version: 1.0
-- Initial release for device: komodo
+## Version: 1.1
+- Updated crDroids 1/20/2025 build prop with our current tweaks
