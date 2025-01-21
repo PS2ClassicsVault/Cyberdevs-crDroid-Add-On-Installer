@@ -32,3 +32,20 @@ The follwoing applications/features are installed when you install this mod:
 When a new build is released the following things will revert back to stock until i release a updated version of this mod for that build so please be paitent when that happens:
 - Build prop tweaks
 - Pixel 9 Official Stock bootanimation
+
+## Installation:
+To install you will need the following things:
+
+- PC/Laptop
+- Google OEM USB Drivers already installed
+- crDriod already installed with gapps installed as well (installed separately)
+- Up-To-Date platform-tools for adb functionality
+- crDroids custom recovery.
+
+To install place the zip into your platform-tools folder and then open a terminal and type this, but before you do make sure you install this package after you flash you gapps oackage not before!:
+
+Windows: '.\adb -d sideload filename.zip'
+
+Other OS (if above fails): 'adb -d sideload filename.zip'
+
+If successful it will begin to run the installer, it will only take less than a minute to comeplete.
