@@ -44,8 +44,8 @@ To install you will need the following things:
 
 To install place the zip into your platform-tools folder and then open a terminal and type this, but before you do make sure you install this package after you flash you gapps oackage not before!:
 
-Windows: '.\adb -d sideload filename.zip'
+Windows: `.\adb -d sideload filename.zip`
 
-Other OS (if above fails): 'adb -d sideload filename.zip'
+Other OS (if above fails): `adb -d sideload filename.zip`
 
 If successful it will begin to run the installer, it will only take less than a minute to comeplete.
