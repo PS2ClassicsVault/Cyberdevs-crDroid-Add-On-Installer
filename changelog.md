@@ -1,10 +1,10 @@
 ## Version: 1.3 for (komodo)
-- Fixed a performance issue casuing the systems overall fps to constantly dip below 60fps even when 120hz is enabled
-- Removed bluetooth and audio tweaks if you want these back please use our [Audio HD Enhacner Magisk Module](https://github.com/PS2ClassicsVault/Audio-HD-Enhancer-Magisk-Module) to add them back systemlessly.
-- Improvments to dex2oat threading
-- Reduced the egl buffcount from 4 to 3
-- Set the default compostsition from dyn to gpu
-- Removed ro.HOME_APP_ADJ=1 tweak as it really do anything positive!
+- Fixed a performance issue causing the systems overall fps to constantly dip below 60fps even when 120hz is enabled
+- Removed Bluetooth and audio tweaks if you want these back, please use our [Audio HD Enhancer Magisk Module](https://github.com/PS2ClassicsVault/Audio-HD-Enhancer-Magisk-Module) to add them back systemlessly.
+- Improvements to dex2oat threading
+- Reduced the egl buff count from 4 to 3
+- Set the default composition from dyn to gpu
+- Removed ro.HOME_APP_ADJ=1 tweak as it really doesn't do anything positive!
 - Storage Manager is now set to on by default using a tweak to turn it on.
 - firmware trimming is now set to on by default
 - Improved the Hardware UI performance by adding hwui tweaks
