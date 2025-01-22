@@ -132,118 +132,29 @@ ro.cp_system_other_odex=1
 ro.launcher.blur.appLaunch=0
 ro.apex.updatable=true
 
-# Audio configuration
-audio.safemedia.bypass=true
-audio.safemedia.force=false
-audio.safemedia.csd.force=false
-ro.audio.ignore_effects=true
-ro.audio.spatializer_enabled=true
-ro.vendor.audio.dolby.dax.support=false
-vendor.audio.dolby.control.support=false
-vendor.audio.usb.perio=2000
-vendor.audio.usb.out.period_us=2000
-vendor.audio.usb.out.period_count=2
-vendor.audio_hal.period_size=120
-vendor.audio_hal.period_multiplier=1
-vendor.audio.adm.buffering.ms=2
-persist.bluetooth.sbc_hd_higher_bitrate=1
-ro.audio.resampler.psd.enable_at_samplerate=44100
-ro.audio.resampler.psd.stopband=179
-ro.audio.resampler.psd.halflength=408
-ro.audio.resampler.psd.tbwcheat=99
-ro.audio.samplerate=192000
-ro.audio.pcm.samplerate=19200
-persist.audio.pcm.channels=2
-af.resample=96000
-af.resampler.quality=100
-dev.pm.dyn_samplingrate=1
-audio.deep_buffer.media=false 
-vendor.audio.deep_buffer.media=false
-audio.deep_buffer.media=true
-audio.offload.buffer.size.kb=64
-vendor.audio.feature.deepbuffer_as_primary.enable=false 
-qc.audio.deep_buffer.media=false 
-ro.qc.audio.deep_buffer.media=false 
-persist.vendor.audio.deep_buffer.media=false
-vendor.audio.flac.sw.decoder.24bit=true 
-flac.sw.decoder.24bit.support=true 
-vendor.audio.aac.sw.decoder.24bit=true 
-vendor.audio.use.sw.alac.decoder=true 
-vendor.audio.flac.sw.encoder.24bit=true 
-vendor.audio.aac.sw.encoder.24bit=true 
-vendor.audio.use.sw.ape.decoder=true 
-vendor.audio.tunnel.encode=true 
-tunnel.audio.encode=true 
-qc.tunnel.audio.encode=true 
-use.non-omx.mp3.decoder=false 
-use.non-omx.aac.decoder=false 
-use.non-omx.flac.decoder=false 
-media.aac_51_output_enabled=true 
-vendor.audio.parser.ip.buffer.size=262144 
-vendor.mm.enable.qcom_parser=63963135
-ro.hardware.hifi.support=true
-ro.audio.hifi=true
-ro.vendor.audio.hifi=true
-persist.audio.hifi=true
-persist.audio.hifi.volume=100
-persist.audio.hifi.int_codec=true
-persist.vendor.audio.hifi=true
-persist.vendor.audio.hifi.int_codec=true
-vendor.audio.matrix.limiter.enable=0 
-vendor.audio.capture.enforce_legacy_copp_sr=true 
-vendor.audio.snd_card.open.retries=50 
-vendor.audio.volume.headset.gain.depcal=true 
-vendor.audio.hal.output.suspend.supported=true 
-vendor.audio.tfa9874.dsp.enabled=true
-ro.audio.soundtrigger.lowpower=false
-ro.vendor.audio.soundtrigger.adjconf=true 
-ro.vendor.audio.ns.support=true 
-ro.vendor.audio.enhance.support=true
-ro.vendor.audio.gain.support=true 
-persist.vendor.audio.ll_playback_bargein=true 
-persist.vendor.audio.bcl.enabled=false
-persist.vendor.audio.format.24bit=true
-persist.vendor.audio_hal.dsp_bit_width_enforce_mode=24 
-persist.vendor.audio.delta.refresh=true
-ro.qc.sdk.audio.fluencetype=none
-persist.audio.fluence.voicerec=true
-persist.audio.fluence.speaker=false
-persist.audio.fluence.mode=endfire
-persist.audio.vr.enable=true
-persist.audio.handset.mic=digital
+# HWUI configuration
+ro.hwui.texture_cache_size=72
+ro.hwui.layer_cache_size=48
+ro.hwui.r_buffer_cache_size=8
+ro.hwui.path_cache_size=32
+ro.hwui.gradient_cache_size=1
+ro.hwui.drop_shadow_cache_size=6
+ro.hwui.texture_cache_flushrate=0.4
+ro.hwui.text_small_cache_width=1024
+ro.hwui.text_small_cache_height=1024
+ro.hwui.text_large_cache_width=2048
+ro.hwui.text_large_cache_height=1024
 
-# Bluetooth configuration
-persist.bt.enableAptXHD=true
-persist.service.btui.use_aptx=1
-persistent.bt.a2dp_offload_cap=sbc-aptx-aptXHD
-persistent.vendor.bt.a2dp_offload_cap=sbc-aac-aptx-aptXHD
-persist.bt.a2dp.aptx_hd_disable=false
-audio.effect.a2dp.enable=1 
-vendor.audio.effect.a2dp.enable=1 
-qcom.hw.aac.encoder=true
-vendor.audio.hw.aac.encoder=true
-persist.service.btui.use_aptx=1 
-persist.bt.a2dp.aptx_disable=false
-persist.bt.a2dp.aptx_hd_disable=false 
-persist.bt.a2dp.aac_disable=false
-persist.bt.sbc_hd_enabled=1
-persist.vendor.btstack.enable.lpa=false 
-persist.vendor.bt.a2dp.aac_whitelist=false
-persist.vendor.bt.aac_frm_ctl.enabled=true 
-persist.vendor.bt.aac_vbr_frm_ctl.enabled=true 
-persist.vendor.btstack.enable.twsplus=true
-persist.vendor.btstack.enable.twsplussho=true 
-persist.vendor.qcom.bluetooth.scram.enabled=false
-persist.vendor.qcom.bluetooth.aac_frm_ctl.enabled=true 
-persist.vendor.qcom.bluetooth.aac_vbr_ctl.enabled=true 
-persist.vendor.qcom.bluetooth.twsp_state.enabled=false 
-persist.bluetooth.sbc_hd_higher_bitrate=1
-persist.sys.flag.override.settings_bluetooth_hearing_aid=true
-ro.bluetooth.emb_wp_mode=true
-ro.bluetooth.wipower=true
+# Java VM configuration
+dalvik.vm.dex2oat-threads=8
+dalvik.vm.dex2oat-thread_count=8
+ro.sys.fw.dex2oat_thread_count=8
+dalvik.vm.boot-dex2oat-threads=8
+dalvik.vm.image-dex2oat-threads=8
 
-#Kernel configuration
-dalvik.vm.swappiness=60
+# USB configuration
+persist.sys.isUsbOtgEnabled=1
+persist.sys.usb.config=mtp,adb
 
 # Facelock configuration
 ro.facelock.black_timeout=1250
@@ -256,7 +167,6 @@ ro.media.effect.bgdropper.adj=0.2
 
 # RAM configuration
 persist.sys.purgeable_assets=1
-ro.config.max_starting_bg=25
 
 # Media configuration
 media.stagefright.enable-http=true
@@ -313,8 +223,6 @@ ro.media.capture.flashIntensity=70
 
 # CPU configuration
 debug.performance.tuning=1
-ro.cpufreq.governor=ondemand
-ro.sys.cpu.core=auto
 ro.config.dynamic_performance=true
 ro.config.cpu_freq_scaling=1
 ro.config.thermal_threshold=75
@@ -341,14 +249,6 @@ persist.backup.ntpserver=north-america.pool.ntp.org
 persist.sys.auto_time_zone=1
 persist.sys.auto_time=1
 persist.ntp.timeout=5000
-
-# Battery configuration
-ro.config.hw_power_saving=1
-pm.sleep_mode=1
-ro.update.battery_threshold=50
-power.saving.mode=1
-ro.ril.disable.power.collapse=0
-ro.ril.power_collapse=1
 
 # Wi-Fi configuration
 wifi.supplicant_scan_interval=180
@@ -378,23 +278,16 @@ ro.gps.agps_port=7276
 ro.networklocation.provider=1
 
 # Graphics configuration
+ro.opengles.version=196610
 debug.egl.force_msaa=1
-debug.egl.buffcount=4
-lockscreen.rot_override=true
+debug.egl.buffcount=3
 ro.config.dha_tunable=1
-debug.composition.type=dyn
-persist.sys.composition.type=dyn
+debug.composition.type=gpu
+persist.sys.composition.type=gpu
 debug.egl.hw=1
 debug.sf.hw=1
 video.accelerate.hw=1
 ro.hdmi.enable=true
-debug.hwui.render_dirty_regions=false
-ro.media.enc.jpeg.quality=100
-ro.media.dec.jpeg.memcap=8000000
-ro.media.enc.hprof.vid.bps=8000000
-ro.max.fps=120
-ro.min.fps=60
-sys.hwc.gpu_perf_mode=1
 persist.sys.ui.hw=true
 debug.gr.numframebuffers=3
 
@@ -530,7 +423,6 @@ net.tcp.default_init_rwnd=60
 
 # Launcher configuration
 log.tag.launcher_force_rotate=VERBOSE
-ro.HOME_APP_ADJ=1
 
 # Wireless + TCP Speed & Security Tweaks
 net.core.wmem_max=1048576
@@ -544,8 +436,10 @@ net.unix.max_dgram_qlen=50
 sys.keep.settings=true
 lockscreen.rot_override=true
 use.voice.path.for.pcm.voip=true
-debug.egl.swapinterval=60
 ro.hardware.qemu=0
+ro.storage_manager.enabled=true
+ro.sys.fw.use_trim_settings=true
+ro.trim.config=true
 ####################################
 # from variable PRODUCT_SYSTEM_DEFAULT_PROPERTIES
 ####################################
