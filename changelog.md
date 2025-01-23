@@ -1,3 +1,6 @@
+## Version 1.4 for (komodo)
+- Updated build.prop to 1/22/2025 build update of crDroid for komodo
+
 ## Version: 1.3 for (komodo)
 - Fixed a performance issue causing the systems overall fps to constantly dip below 60fps even when 120hz is enabled
 - Removed Bluetooth and audio tweaks if you want these back, please use our [Audio HD Enhancer Magisk Module](https://github.com/PS2ClassicsVault/Audio-HD-Enhancer-Magisk-Module) to add them back systemlessly.
