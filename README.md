@@ -22,6 +22,7 @@ The follwoing applications/features are installed when you install this mod:
 - Google Wallet
 - Gmail
 - Google Play Protect Service
+- Google Play Games
 
 ### Features:
 - Pixel 9 Official Stock Bootanimation
