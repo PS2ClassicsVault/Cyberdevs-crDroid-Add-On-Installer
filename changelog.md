@@ -2,7 +2,7 @@
 - Added a new tweak that fixes video blocking when playing certain videos.
 - Added new tweak that fixes black screen videos when streaming either an embedded video or in-app video.
 - Added new tweak for Google Play Services
-- Added Google Play Games v2020.06.19385(319076555.319076555-000408) to install as a ssytem app and can be updated from the google play store.
+- Added Google Play Games v2020.06.19385(319076555.319076555-000408) to install as a system app and can be updated from the google play store.
 - Updated build.prop with the latest crDroid 01/24/2025 build
 - Added permissions for Google Play Games app in /product/etc/permissions
 
