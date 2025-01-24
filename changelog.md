@@ -1,5 +1,5 @@
 ## Version 1.5 for (komodo)
-- Added a new tweak that fixes video blocking whenbplaying certain videos.
+- Added a new tweak that fixes video blocking when playing certain videos.
 - Added new tweak that fixes black screen videos when streaming either an embedded video or in-app video.
 - Added new tweak for Google Play Services
 - Added Google Play Games v2020.06.19385(319076555.319076555-000408) to install as a ssytem app and can be updated from the google play store.
