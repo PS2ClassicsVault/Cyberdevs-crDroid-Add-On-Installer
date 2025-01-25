@@ -50,3 +50,6 @@ Windows: `.\adb -d sideload filename.zip`
 Other OS (if above fails): `adb -d sideload filename.zip`
 
 If successful it will begin to run the installer, it will only take less than a minute to comeplete.
+
+# NOTICE OF DEVICE SUPPORT:
+If you wish for you variant of the Pixel 9 to be supported you will need to take the initiative to pass your build prop to me on every new update otherwise your device will not be updated!
