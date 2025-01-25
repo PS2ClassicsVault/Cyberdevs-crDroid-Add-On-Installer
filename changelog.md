@@ -1,3 +1,6 @@
+## Version 1.6 for (komodo)
+- Updated build.prop with the latest crDroid 01/25/2025 build
+
 ## Version 1.5 for (komodo)
 - Added a new tweak that fixes video blocking when playing certain videos.
 - Added new tweak that fixes black screen videos when streaming either an embedded video or in-app video.
