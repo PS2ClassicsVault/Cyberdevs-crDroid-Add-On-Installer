@@ -3,7 +3,7 @@
 - Updated build.prop with the latest crDroid 01/26/2025 build
 - Added max hwui texture tweak and set it to `314572800`
 - Added tweak for dex2oat to multithread applications for better launching and performance
-- Added a new tweka that will assist in framerates by upscaling a low framerate video to a high framerate video output
+- Added a new tweak that will assist in framerates by upscaling a low framerate video to a high framerate video output
 
 ## Version 1.6 for (caiman)
 - Updated build.prop with the latest crDroid 01/25/2025 build
