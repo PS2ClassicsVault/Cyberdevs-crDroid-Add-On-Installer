@@ -144,7 +144,7 @@ ro.hwui.text_small_cache_width=1024
 ro.hwui.text_small_cache_height=1024
 ro.hwui.text_large_cache_width=2048
 ro.hwui.text_large_cache_height=1024
-ro.hwui.max_texture_allocation_size=314572800
+ro.hwui.max_texture_allocation_size=4096
 
 # Java VM configuration
 dalvik.vm.dex2oat-threads=8
@@ -296,7 +296,7 @@ video.accelerate.hw=1
 ro.hdmi.enable=true
 persist.sys.ui.hw=true
 debug.gr.numframebuffers=3
-dev.pm.gpu_samplingrate=1
+dev.pm.gpu_samplingrate=0
 
 # Display configuration 
 windowsmgr.max_events_per_sec=500
