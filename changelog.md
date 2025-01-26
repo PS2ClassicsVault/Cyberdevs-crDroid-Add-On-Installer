@@ -1,7 +1,7 @@
 ## Version v1.7 for (komodo)
 - Added new tweak to compile HW overlays to the gpu
 - Updated build.prop with the latest crDroid 01/26/2025 build
-- Added max hwui texture tweak and set it to `4069`
+- Added max hwui texture tweak and set it to `4096`
 - Added a new tweak that will assist in framerates by upscaling a low framerate video to a high framerate video output
 
 ## Version 1.6 for (caiman)
