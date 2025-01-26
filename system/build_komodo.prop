@@ -152,7 +152,6 @@ dalvik.vm.dex2oat-thread_count=8
 ro.sys.fw.dex2oat_thread_count=8
 dalvik.vm.boot-dex2oat-threads=8
 dalvik.vm.image-dex2oat-threads=8
-persist.sys.multithreaded.dexlayout.enable=true
 
 # USB configuration
 persist.sys.isUsbOtgEnabled=1
