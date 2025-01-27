@@ -1,3 +1,8 @@
+## Version 1.8 for (caiman)
+- Fixed an issue where the system would stutter when viewing apps
+- Removed max hwui texture tweak as it was causing system issues using certain apps.
+- Updated build.prop with the latest crDroid 01/27/2025 build
+
 ## Version 1.8 for (komodo)
 - Fixed an issue where the system would stutter when viewing apps
 - Removed max hwui texture tweak as it was causing system issues using certain apps.
