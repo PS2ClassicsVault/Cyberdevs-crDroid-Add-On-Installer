@@ -1,4 +1,10 @@
-## Version v1.7 for (komodo)
+## Version 1.8 for (komodo)
+- Fixed an issue where the system would stutter when viewing apps
+- Removed max hwui texture tweak as it was casuing system issues using certain apps.
+- Added cpu HW Overlay composition for optimal performance
+- Updated build.prop with the latest crDroid 01/27/2025 build
+
+## Version 1.7 for (komodo)
 - Added new tweak to compile HW overlays to the gpu
 - Updated build.prop with the latest crDroid 01/26/2025 build
 - Added max hwui texture tweak and set it to `4096`
