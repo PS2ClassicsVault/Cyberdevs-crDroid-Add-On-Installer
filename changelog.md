@@ -1,3 +1,7 @@
+## Version 1.8 for (panther)
+- Initial release for the Pixel 7 (Panther)
+- Updated build.prop with the latest crDroid 01/23/2025 build
+
 ## Version 1.8 for (caiman)
 - Fixed an issue where the system would stutter when viewing apps
 - Removed max hwui texture tweak as it was causing system issues using certain apps.
