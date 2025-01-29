@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <app-permissions package="com.ustwo.lwp">
+        <permission name="android.permission.ACCESS_FINE_LOCATION"/>
+        <permission name="android.permission.INTERNET"/>
+        <permission name="android.permission.ACCESS_NETWORK_STATE"/>
+        <permission name="android.permission.POST_NOTIFICATIONS"/>
+       <permission name="android.permission.ACCESS_COARSE_LOCATION"/>
+      <permission name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
+    </app-permissions>
+</permissions>
