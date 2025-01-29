@@ -1,3 +1,8 @@
+## Version 2.0 (komodo)
+- Added Google Pixel 2,3 & 4 Official Live Wallpapers
+- Added Sony Xperia Live Wallpapers (PS3 Like Live Wallpaper)
+- Setup permissions for new added applications.
+
 ## Version 1.9 for (komodo)
 - Updated build.prop with the latest crDroid 01/29/2025 build
 
