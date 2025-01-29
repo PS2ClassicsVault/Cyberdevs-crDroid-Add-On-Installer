@@ -1,4 +1,4 @@
-# Cyberdevs-Pixel-9-CrDroid-Add-On-Installer
+# Cyberdevs-Pixel 7 & 9 CrDroid Add-On Installer
 This mods crDroid with tweaks and extra applications that NikGapps didn't install upon installation!
 
 ## What is this?
@@ -14,6 +14,7 @@ This mod has limitations that require us to inform  you before using this mod th
 - We are not responsible if things go wrong such as an unexpected bootloop, system behavior or loss of files/damage to the firmware due to this mod, though we tested this on my personal device, it's clear with anykind of mod this is a risk always, We always encourge to backup any data before using this or any mod that alters your device(s) firmware.
 - This mod will not trip/trigger existing Google Play Integrity verification that is is the GREEN as some mods to build prop can trigger GPIV and lose verification, this mod does not trigger GPIUV and you will remain in the GREEN!
 - This mod is device specific, do not install any builds we offer on a device that is not listed each build will have its platform at the end of the filename and in the title of the release.
+- If you are usaing the Pixel 7 version, We recommend you to use this gapps package for the install to be successful since the pixel 7 doesn't have a lot of storage that the pixel 9 has: [NikGapps-crdroid-official-arm64-15-20250127-signed.zip](https://sourceforge.net/projects/nikgapps/files/Elite-Releases/crdroid-official/Android-15/27-Jan-2025/NikGapps-crdroid-official-arm64-15-20250127-signed.zip/download)
 
 ## What applications/Features does this mod installs?
 The follwoing applications/features are installed when you install this mod:
