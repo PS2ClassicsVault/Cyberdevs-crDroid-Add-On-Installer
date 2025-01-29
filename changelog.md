@@ -1,3 +1,6 @@
+## Version 1.9 for (komodo)
+- Updated build.prop with the latest crDroid 01/29/2025 build
+
 ## Version 1.8 for (panther)
 - Initial release for the Pixel 7 (Panther)
 - Updated build.prop with the latest crDroid 01/23/2025 build
