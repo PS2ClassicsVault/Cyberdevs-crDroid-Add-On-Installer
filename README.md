@@ -14,6 +14,8 @@ This mod has limitations that require us to inform  you before using this mod th
 - We are not responsible if things go wrong such as an unexpected bootloop, system behavior or loss of files/damage to the firmware due to this mod, though we tested this on my personal device, it's clear with anykind of mod this is a risk always, We always encourge to backup any data before using this or any mod that alters your device(s) firmware.
 - This mod will not trip/trigger existing Google Play Integrity verification that is is the GREEN as some mods to build prop can trigger GPIV and lose verification, this mod does not trigger GPIUV and you will remain in the GREEN!
 - This mod is device specific, do not install any builds we offer on a device that is not listed each build will have its platform at the end of the filename and in the title of the release.
+
+  ## FOR PIXEL 7 USERS:
 - If you are using the Pixel 7 version, We recommend you to use this gapps package for the install to be successful since the pixel 7 doesn't have a lot of storage that the pixel 9 has: [NikGapps-crdroid-official-arm64-15-20250127-signed.zip](https://sourceforge.net/projects/nikgapps/files/Elite-Releases/crdroid-official/Android-15/27-Jan-2025/NikGapps-crdroid-official-arm64-15-20250127-signed.zip/download)
 
 ## What applications/Features does this mod installs?
@@ -53,4 +55,4 @@ Other OS (if above fails): `adb -d sideload filename.zip`
 If successful it will begin to run the installer, it will only take less than a minute to comeplete.
 
 # NOTICE OF DEVICE SUPPORT:
-If you wish for you variant of the Pixel 9 to be supported you will need to take the initiative to pass your build prop to me on every new update otherwise your device will not be updated!
+If you wish for you variant of the Pixel 7/9 to be supported you will need to take the initiative to pass your build prop to me on every new update otherwise your device will not be updated!
