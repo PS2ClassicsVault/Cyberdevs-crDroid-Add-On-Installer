@@ -1,4 +1,4 @@
-# Cyberdevs-Pixel 7 & 9 CrDroid Add-On Installer
+# Cyberdev's Pixel 7 & 9 CrDroid Add-On Installer
 This mods crDroid with tweaks and extra applications that NikGapps didn't install upon installation!
 
 ## What is this?
