@@ -11,6 +11,11 @@
 ## Version 1.9 for (komodo)
 - Updated build.prop with the latest crDroid 01/29/2025 build
 
+## Version 1.9 for (caiman)
+- Added Google Pixel 2,3 & 4 Official Live Wallpapers
+- Added Sony Xperia Live Wallpapers (PS3 Like Live Wallpaper)
+- Setup permissions for new added applications.
+
 ## Version 1.8 for (panther)
 - Initial release for the Pixel 7 (Panther)
 - Updated build.prop with the latest crDroid 01/23/2025 build
