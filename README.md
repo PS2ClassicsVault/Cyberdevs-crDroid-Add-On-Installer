@@ -26,6 +26,8 @@ The following applications/features are installed when you install this mod:
 - Gmail
 - Google Play Protect Service
 - Google Play Games
+- Google Pixel 2,3 & 4 Live Wallpapers
+- Xperia Play Live Wallpaper (PS3 Like Design)
 
 ### Features:
 - Pixel 9 Official Stock Bootanimation
