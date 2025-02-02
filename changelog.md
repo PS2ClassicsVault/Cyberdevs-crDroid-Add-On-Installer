@@ -1,3 +1,9 @@
+## Version 2.1 (komodo)
+- Updated build.prop with the latest crDroid 02/02/2025 build
+- Added Google Find My Device
+- Added Google Pixel Buds STUB (is updateable vbia the Google Play Store)
+- Added Google Gemini
+
 ## Version 2.0 (komodo)
 - Added Google Pixel 2,3 & 4 Official Live Wallpapers
 - Added Sony Xperia Live Wallpapers (PS3 Like Live Wallpaper)
