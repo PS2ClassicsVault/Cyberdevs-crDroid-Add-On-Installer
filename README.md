@@ -58,7 +58,3 @@ If successful it will begin to run the installer, it will only take less than a 
 
 # NOTICE OF DEVICE SUPPORT:
 If you wish for you variant of the Pixel 7/9 to be supported you will need to take the initiative to pass your build prop to me on every new update otherwise your device will not be updated!
-
-
-# ANNOUNCEMENTS:
-- Starting on v2.1 builds we will begin to change how crdroid will display its versions for example official builds display `11.1` when our v2.1 builds release crdroids  version mod will now be displayed as `11.1 | Ver. v2.1` this will indicate what version our mod you have installed and may possibly assist the developers that your using a modified unofficial build.
