@@ -15,6 +15,9 @@ This mod has limitations that require us to inform  you before using this mod th
 - This mod will not trip/trigger existing Google Play Integrity verification that is is the GREEN as some mods to build prop can trigger GPIV and lose verification, this mod does not trigger GPIUV and you will remain in the GREEN!
 - This mod is device specific, do not install any builds we offer on a device that is not listed each build will have its platform at the end of the filename and in the title of the release.
 
+## What this mod will never install:
+- This mod will NOT install applications that requres root, out goal is to keep our mod clean and use on unrooted devices, if you decide to root your device some included applications may cease to work due to root detection.
+
   ## FOR PIXEL 7 USERS:
 - If you are using the Pixel 7 version, We recommend you to use this gapps package for the install to be successful since the pixel 7 doesn't have a lot of storage that the pixel 9 has: [NikGapps-crdroid-official-arm64-15-20250127-signed.zip](https://sourceforge.net/projects/nikgapps/files/Elite-Releases/crdroid-official/Android-15/27-Jan-2025/NikGapps-crdroid-official-arm64-15-20250127-signed.zip/download)
 
