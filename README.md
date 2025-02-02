@@ -28,6 +28,9 @@ The following applications/features are installed when you install this mod:
 - Google Play Games
 - Google Pixel 2,3 & 4 Live Wallpapers
 - Xperia Play Live Wallpaper (PS3 Like Design)
+- Google Find My Device
+- Google Pixel Buds STUB (Updatable via the Google Play Store)
+- Google Gemini
 
 ### Features:
 - Pixel 9 Official Stock Bootanimation
