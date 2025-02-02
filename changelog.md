@@ -1,3 +1,8 @@
+## Version 2.1 (caiman)
+- Added Google Find My Device
+- Added Google Pixel Buds STUB (is updateable via the Google Play Store)
+- Added Google Gemini
+
 ## Version 2.1 (panther)
 - Added Google Find My Device
 - Added Google Pixel Buds STUB (is updateable via the Google Play Store)
