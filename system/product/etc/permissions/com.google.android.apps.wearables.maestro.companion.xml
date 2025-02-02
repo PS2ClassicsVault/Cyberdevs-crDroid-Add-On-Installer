@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <app-permissions package="com.google.android.apps.wearables.maestro.companion">
+        <permission name="android.permission.INTERNET"/>
+        <permission name="android.permission.ACCESS_NETWORK_STATE"/>
+        <permission name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+        <permission name="android.permission.BLUETOOTH_PRIVILEGED"/>
+        <permission name="android.permission.FOREGROUND_SERVICE"/>
+        <permission name="android.permission.GET_PACKAGE_SIZE"/>
+        <permission name="android.permission.ACCESS_MEDIA_LOCATION"/>
+        <permission name="android.permission.READ_MEDIA_AUDIO"/>
+        <permission name="android.permission.READ_MEDIA_VIDEO"/>
+        <permission name="android.permission.BLUETOOTH"/>
+        <permission name="android.permission.BLUETOOTH_ADMIN"/>
+        <permission name="android.permission.READ_MEDIA_IMAGES"/>
+        <permission name="android.permission.WAKE_LOCK"/>
+        <permission name="android.permission.READ_MEDIA_VISUAL_USER_SELECTED"/>
+        <permission name="android.permission.POST_NOTIFICATIONS"/>
+        <permission name="android.permission.BLUETOOTH_SCAN"/>
+        <permission name="android.permission.BLUETOOTH_CONNECT"/>
+        <permission name="android.permission.BLUETOOTH_ADVERTISE"/>
+        <permission name="android.permission.READ_EXTERNAL_STORAGE"/>
+    </app-permissions>
+</permissions>

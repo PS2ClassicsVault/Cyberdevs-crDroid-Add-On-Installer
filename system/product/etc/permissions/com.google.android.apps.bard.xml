@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <privapp-permissions package="com.google.android.apps.bard">
+        <permission name="android.permission.INTERNET"/>
+        <permission name="android.permission.ACCESS_NETWORK_STATE"/>
+        <permission name="android.permission.GET_PACKAGE_SIZE"/>
+        <permission name="android.permission.WAKE_LOCK"/>
+    </privapp-permissions>
+</permissions>
