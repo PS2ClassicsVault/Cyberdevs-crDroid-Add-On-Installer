@@ -1,3 +1,6 @@
+## Version 2.2 (caiman)
+- Updated build.prop with the latest crDroid 02/03/2025 build
+
 ## Version 2.2 (komodo)
 - Updated build.prop with the latest crDroid 02/03/2025 build
 
