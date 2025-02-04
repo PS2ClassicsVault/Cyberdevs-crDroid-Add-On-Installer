@@ -1,3 +1,7 @@
+## Version 2.3 (komodo)
+- Fixed an issue where heaptaregetutilization was not present.
+- Improved ART compiling performance.
+
 ## Version 2.3 (panther)
 - Updated build.prop with the latest crDroid 02/03/2025 build
 - Improved ART compiling performance.
