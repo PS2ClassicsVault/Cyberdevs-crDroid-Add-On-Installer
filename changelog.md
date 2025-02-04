@@ -1,3 +1,9 @@
+## Version 2.3 (panther)
+- Updated build.prop with the latest crDroid 02/03/2025 build
+- Improved ART compiling performance.
+- Fixed an issue where heaptaregetutilization was not present.
+- Removed HWUI tweak as it slowed the OS down.
+
 ## Version 2.2 (caiman)
 - Updated build.prop with the latest crDroid 02/03/2025 build
 
