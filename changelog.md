@@ -1,3 +1,6 @@
+## Version v2.3 (caiman)
+- Improved ART compiling performance.
+
 ## Version 2.3 (komodo)
 - Fixed an issue where heaptaregetutilization was not present.
 - Improved ART compiling performance.
