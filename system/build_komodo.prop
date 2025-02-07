@@ -142,7 +142,6 @@ dalvik.vm.checkjni=false
 dalvik.vm.verify-bytecode=false
 dalvik.gc.type=generational_cc
 dalvik.vm.dex2oat-swap=true
-dalvik.vm.dex2oat-resolve-startup-strings=true
 dalvik.vm.systemservercompilerfilter=speed-profile
 dalvik.vm.systemuicompilerfilter=speed-profile
 
