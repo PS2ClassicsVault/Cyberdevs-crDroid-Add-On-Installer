@@ -1,4 +1,4 @@
-# Version v2.4 (komodo)
+## Version v2.4 (komodo)
 - Updated build.prop with the latest crDroid 02/07/2025 build.
 - Fixed an issue with ART compiling where apps and UI would at random slightly feel like their lagging swhould no longer lag or stutter.
 - Added sysconfig files for permissions for specific applications that looks for them on boot.
