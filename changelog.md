@@ -2,7 +2,7 @@
 - Updated build.prop with the latest crDroid 02/07/2025 build.
 - Fixed an issue with ART compiling where apps and UI would at random slightly feel like their lagging swhould no longer lag or stutter.
 - Added sysconfig files for permissions for specific applications that looks for them on boot.
-- Increased vm.dex2oat to 94m/512m annd image.dex2oat to 94m/94m for better smoothness and more room for applications overhead.
+- Increased vm.dex2oat to 94m/512m and image.dex2oat to 94m/94m for better smoothness and more room for applications overhead.
 
 ## Version v2.3 (caiman)
 - Improved ART compiling performance.
