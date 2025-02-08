@@ -10,7 +10,7 @@
 ## Version v2.5 (komodo) | For Build Date: 02/07/2025
 - Removed some dexoat custom tweaks that were casuing system lag, OS should now be smooth
 
-## Version v2.4 (panther) | 02/03/2025
+## Version v2.4 (panther) | For Build Date: 02/03/2025
 - Fixed an issue with ART compiling where apps and UI would at random slightly feel like their lagging should no longer lag or stutter.
 - Added sysconfig files for permissions for specific applications that looks for them on boot.
 - Increased vm.dex2oat to 94m/512m and image.dex2oat to 94m/94m for better smoothness and more room for applications overhead.
