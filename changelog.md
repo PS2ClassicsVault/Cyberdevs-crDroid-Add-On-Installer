@@ -1,5 +1,5 @@
 ## Version v2.5 (caiman) | For Build Date: 02/07/2025
-- Removed some dexoat custom tweaks that were casuing system lag, OS should now be smooth
+- Removed some dexoat custom tweaks that were causing system lag, OS should now be smooth
 
 ## Version v2.5 (komodo) | For Build Date: 02/07/2025
 - Removed some dexoat custom tweaks that were casuing system lag, OS should now be smooth
