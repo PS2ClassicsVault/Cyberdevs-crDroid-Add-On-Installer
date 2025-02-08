@@ -1,3 +1,6 @@
+## Version v2.4 (komodo)
+- Removed some dexoat custom tweaks that were casuing system lag, OS should now be smooth
+
 ## Version v2.4 (caiman)
 - Updated build.prop with the latest crDroid 02/07/2025 build.
 - Fixed an issue with ART compiling where apps and UI would at random slightly feel like their lagging should no longer lag or stutter.
