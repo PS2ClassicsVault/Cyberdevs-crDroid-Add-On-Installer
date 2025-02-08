@@ -1,7 +1,6 @@
 ## Version v2.6 (caiman) | For Build Date: 02/07/2025
 - Removed Google Play Protect Service app and replaced it with the Google Play Protect Service STUB (can be updated via the google play store) this should reduce the imprint on storage usage.
 
-
 ## Version v2.6 (komodo) | For Build Date: 02/07/2025
 - Removed Google Play Protect Service app and replaced it with the Google Play Protect Service STUB (can be updated via the google play store) this should reduce the imprint on storage usage.
 
