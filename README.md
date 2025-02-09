@@ -2,7 +2,7 @@
 This mods crDroid with tweaks and extra applications that NikGapps didn't install upon installation!
 
 ## What is this?
-This mod allows you to mod crDroid 11.1 and add additional customization to crDroid build prop and add new apps that NikGapps did not install, however this mod has limitations so please read this carefully so that you are aware of these limitations!
+This mod allows you to mod crDroid 11.1 & 11.2 and add additional customization to crDroid build prop and add new apps that NikGapps did not install, however this mod has limitations so please read this carefully so that you are aware of these limitations!
 
 ## Limitations:
 This mod has limitations that require us to inform  you before using this mod these limitations are as follows:
@@ -27,7 +27,7 @@ The following applications/features are installed when you install this mod:
 ### Apps:
 - Google Wallet
 - Gmail
-- Google Play Protect Service
+- Google Play Protect Service STUB
 - Google Play Games
 - Google Pixel 2,3 & 4 Live Wallpapers
 - Xperia Play Live Wallpaper (PS3 Like Design)
