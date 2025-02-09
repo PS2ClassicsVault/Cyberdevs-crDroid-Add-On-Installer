@@ -106,8 +106,8 @@ compute_apps_size() {
 
 ui_print "*******************************"
 ui_print "   Cyberdev's Pixel 9 Pro XL   "
-ui_print "  crDroid 11.1 2/07/25 Add-On  "
-ui_print "        Installer v2.6         "
+ui_print "  crDroid 11.2 2/09/25 Add-On  "
+ui_print "        Installer v2.7         "
 ui_print "*******************************"
 
 ui_print "Extracting files"
@@ -234,13 +234,13 @@ STORAGE_BUFFER=10240
 
 cd system
 
-# Detect tangorpro
+# Detect komodo
 DEVICE=$(getprop ro.build.product)
-if [ "$DEVICE" == "tangorpro" ]; then
-  ui_print "Detected tangorpro device. Deleting normal Velvet app"
-  rm -rf product/priv-app/Velvet
+if [ "$DEVICE" == "komodo" ]; then
+  ui_print "Detected komodo device. Deleting old GooglePPS libs"
+  rm -rf product/app/GooglePPS/lib
 else
-  rm -rf product/priv-app/VelvetTitan
+  rm -rf product/app/GooglePPS/lib
 fi
 
 compute_apps_size
