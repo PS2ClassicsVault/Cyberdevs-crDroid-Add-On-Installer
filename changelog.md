@@ -1,3 +1,8 @@
+## Version v2.7 (komodo) | crDroid 11.2 | 02/09/2025
+- Updated build prop to the latest crDroid build 11.2 02/09/2025.
+- Implemented to installer to remove the library files to Google Play Protect Service since the stub had no need for them.
+- Reverted dalvik vm to 64m/64m on boot and 64m/512m.
+
 ## Version v2.6 (caiman) | For Build Date: 02/07/2025
 - Removed Google Play Protect Service app and replaced it with the Google Play Protect Service STUB (can be updated via the google play store) this should reduce the imprint on storage usage.
 
