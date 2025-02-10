@@ -54,6 +54,9 @@ To install you will need the following things:
 - Up-To-Date platform-tools for adb functionality
 - crDroids custom recovery.
 
+## NOTICE FOR FIRST TIME INSTALLING & UPDATING INSTALLERS:
+You will encounter an error when installing at the beginning such as metadata error etc, however this is normal and will continue to install the mod as normal, this ouccurs if the installer does not detect the library files for Google Play Protect Service, if it was poresent the erorrs would have not been displayed.
+
 To install place the zip into your platform-tools folder and then open a terminal and type this, but before you do make sure you install this package after you flash you gapps oackage not before!:
 
 Windows: `.\adb -d sideload filename.zip`
