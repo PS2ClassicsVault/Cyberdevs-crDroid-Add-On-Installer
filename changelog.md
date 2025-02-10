@@ -1,3 +1,11 @@
+## Version v2.8 (caiman) | crDroid 11.2 | 02/10/2025
+- Improved dex2oat but adding a new dex2oat mutltithread tweak.
+- 16bit transpearancy tweak has been added for higher display qaulity.
+- Updated build prop to the latest crDroid build 11.2 02/10/2025.
+- Added new minimal audio improvment tweaks
+- Disabled kernel error checking (helps give a performance boost)
+- Increased min screen fling from 8000 to 8192 and max screen fling from 10000 to 20000
+
 ## Version v2.8 (komodo) | crDroid 11.2 | 02/10/2025
 - Improved dex2oat but adding a new dex2oat mutltithread tweak.
 - 16bit transpearancy tweak has been added for higher display qaulity.
