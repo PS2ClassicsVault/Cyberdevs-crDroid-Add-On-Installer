@@ -4,7 +4,7 @@
 - Updated build prop to the latest crDroid build 11.2 02/10/2025.
 - Added new minimal audio improvment tweaks
 - Disabled kernel error checking (helps give a performance boost)
-- Increasd min screen fling from 8000 to 8192 and max screen fling from 10000 to 20000
+- Increased min screen fling from 8000 to 8192 and max screen fling from 10000 to 20000
   
 ## Version v2.7 (komodo) | crDroid 11.2 | 02/09/2025
 - Updated build prop to the latest crDroid build 11.2 02/09/2025.
