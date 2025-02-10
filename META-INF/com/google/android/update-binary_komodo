@@ -106,8 +106,8 @@ compute_apps_size() {
 
 ui_print "*******************************"
 ui_print "   Cyberdev's Pixel 9 Pro XL   "
-ui_print "  crDroid 11.2 2/09/25 Add-On  "
-ui_print "        Installer v2.7         "
+ui_print "  crDroid 11.2 2/10/25 Add-On  "
+ui_print "        Installer v2.8         "
 ui_print "*******************************"
 
 ui_print "Extracting files"
@@ -237,7 +237,7 @@ cd system
 # Detect komodo
 DEVICE=$(getprop ro.build.product)
 if [ "$DEVICE" == "komodo" ]; then
-  ui_print "Detected komodo device. Deleting old GooglePPS libs"
+  ui_print "Detected komodo device. Deleting old GooglePPS library files"
   rm -rf product/app/GooglePPS/lib
 else
   rm -rf product/app/GooglePPS/lib
