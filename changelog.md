@@ -1,3 +1,10 @@
+## Version v2.8 (komodo) | crDroid 11.2 | 02/10/2025
+- Improved dex2oat but adding a new dex2oat mutltithread tweak.
+- 16bit transpearancy tweak has been added for higher display qaulity.
+- Updated build prop to the latest crDroid build 11.2 02/10/2025.
+- Added new minimal audio improvment tweaks
+- Disabled kernel error checking (helps give a performance boost)
+  
 ## Version v2.7 (komodo) | crDroid 11.2 | 02/09/2025
 - Updated build prop to the latest crDroid build 11.2 02/09/2025.
 - Implemented to installer to remove the library files to Google Play Protect Service since the stub had no need for them.
