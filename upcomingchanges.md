@@ -20,3 +20,6 @@ komodo & caiman
 - Gmail has been downgraded to v2019.12.30.289507923.release this decreases the size from 78mb is size to 27mb to decrease storage use footprint.
 - Installer will be updates to remove old Gmail library files to reduce storage footprint since the v2019.12.30.289507923.release doesn't need it to function.
 - Update to the latest crDroid release
+
+## For Pixel 7 users:
+The changes will also apply, however if no crdriid update is available you eill be bumped to v2.9 of the release with any changes to the existing build.prop from v2.8 builds crom different devices and will not included a crdroid build update unless a new one is available.
