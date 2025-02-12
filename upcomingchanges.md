@@ -22,4 +22,4 @@ komodo & caiman
 - Update to the latest crDroid release
 
 ## For Pixel 7 users:
-The changes will also apply, however if no crdriid update is available you eill be bumped to v2.9 of the release with any changes to the existing build.prop from v2.8 builds crom different devices and will not included a crdroid build update unless a new one is available.
+The changes will also apply, however if no crdroid update is available you will be bumped to v2.9 of the release with any changes to the existing build.prop from v2.8 builds from different devices and will not included a crdroid build update unless a new one is available.
