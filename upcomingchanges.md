@@ -6,5 +6,17 @@ This just inform you what is to expect before the update is released. This will 
 
 ## Update Information:
 
-### Version: v2.9
+### Version:
+v2.9
 
+### Device(s):
+komodo & caiman
+
+### Build ETA Date (This date can change at anytime):
+02/13/2025
+
+# What's Changing:
+- Google Play Protect Service Stub will he updated and no longer display "Android System Security Update" it will display rhe proper GPPS name.
+- Gmail has been downgraded to v2019.12.30.289507923.release this decreases the size from 78mb is size to 27mb to decrease storage use footprint.
+- Installer will be updates to remove old Gmail library files to reduce storage footprint since the v2019.12.30.289507923.release doesn't need it to function.
+- Update to the latest crDroid release
