@@ -10,7 +10,7 @@ This just inform you what is to expect before the update is released. This will 
 v2.9
 
 ### Device(s):
-komodo & caiman
+komodo, caiman & panther
 
 ### Build ETA Date (This date can change at anytime):
 02/13/2025
