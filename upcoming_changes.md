@@ -18,7 +18,7 @@ komodo, caiman & panther
 # What's Changing:
 - Google Play Protect Service Stub will he updated and no longer display "Android System Security Update" it will display rhe proper GPPS name.
 - Gmail has been downgraded to v2019.12.30.289507923.release this decreases the size from 78mb is size to 27mb to decrease storage use footprint.
-- Installer will be updates to remove old Gmail library files to reduce storage footprint since the v2019.12.30.289507923.release doesn't need it to function.
+- Installer will be updated to remove old Gmail library files to reduce storage footprint since the v2019.12.30.289507923.release doesn't need it to function.
 - Update to the latest crDroid release
 
 ## For Pixel 7 users:
