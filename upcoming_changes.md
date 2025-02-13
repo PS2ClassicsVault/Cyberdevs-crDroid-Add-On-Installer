@@ -13,7 +13,7 @@ v2.9
 komodo, caiman & panther
 
 ### Build ETA Date (This date can change at anytime):
-02/13/2025
+02/14/2025
 
 # What's Changing:
 - Google Play Protect Service Stub will be updated and no longer display "Android System Security Update" it will display rhe proper GPPS name.
