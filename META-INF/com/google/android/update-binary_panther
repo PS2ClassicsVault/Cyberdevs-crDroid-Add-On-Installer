@@ -107,7 +107,7 @@ compute_apps_size() {
 ui_print "*******************************"
 ui_print "      Cyberdev's Pixel 7       "
 ui_print "  crDroid 11.1 02/03/25 Add-On  "
-ui_print "     Installer v2.4 Rev. 3     "
+ui_print "     Installer v2.9 Rev. 3     "
 ui_print "*******************************"
 
 ui_print "Extracting files"
@@ -234,14 +234,25 @@ STORAGE_BUFFER=10240
 
 cd system
 
-# Detect tangorpro
+# Detect panther
 DEVICE=$(getprop ro.build.product)
-if [ "$DEVICE" == "tangorpro" ]; then
-  ui_print "Detected tangorpro device. Deleting normal Velvet app"
-  rm -rf product/priv-app/Velvet
+if [ "$DEVICE" == "panther" ]; then
+  ui_print "Detected panther device. Purging old library files, Please Wait...1/2"
+  rm -rf product/app/GooglePPS/lib
 else
-  rm -rf product/priv-app/VelvetTitan
+  rm -rf product/app/GooglePPS/lib
 fi
+
+# Detect panther
+DEVICE=$(getprop ro.build.product)
+if [ "$DEVICE" == "panther" ]; then
+  ui_print "Purging library files, Almost done...2/2"
+  rm -rf product/app/Gmail/lib
+else
+  rm -rf product/app/Gmail/lib
+fi
+
+ui_print "Purge of old library files done!" 
 
 compute_apps_size
 
