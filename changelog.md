@@ -1,3 +1,16 @@
+## Version v2.9 (panther)
+- Google Play Protect Service Stub was updated and no longer display "Android System Security Update" it will display rhe proper GPPS name.
+- Downgraded Gmail apk to v2019.12.30.289507923.release this decreases the size from 78mb is size to 27mb to decrease storage use footprint.
+- Installer was updated to remove old Gmail library files to reduce storage footprint since the v2019.12.30.289507923.release doesn't need it to function.
+- Added LineageOS Icons pack will allow you to switch home icons from either default icons or lineage os icons.
+- Added a new dex2oat multithreading (this doesnt need a fix for this revision since it includes the multithread fixalready mentioned for other devices).
+- hwui has returned but more reworked and tuned for better performance and UI smoothness.
+- added a tweak that disables google usage data (this should help prevent google receiving data that could be used to revoke GPC (Goog ePlay Certification) consoles used a similar method to prevent sony from banning them).
+- hwui will now use skiagl to render ui (vulkan will still do it's thing).
+- dalvik will rule when a timeout in order top process the next set of inscructions to lower load of dalvik processiing via tweaks
+- improved audio performance
+- added a fix for RIL (if present in the end users end)
+
 ## Version v2.8 (caiman) | crDroid 11.2 | 02/10/2025
 - Improved dex2oat but adding a new dex2oat multithread tweak.
 - 16bit transparency tweak has been added for higher display quality.
