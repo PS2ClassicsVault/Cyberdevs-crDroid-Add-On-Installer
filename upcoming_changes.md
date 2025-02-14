@@ -10,7 +10,7 @@ This just inform you what is to expect before the update is released. This will 
 v2.9
 
 ### Device(s):
-komodo, caiman & panther
+komodo, caiman 
 
 ### Build ETA Date (This date can change at anytime & does not indicate it's accurate availability):
 02/14/2025
@@ -30,4 +30,4 @@ komodo, caiman & panther
 - Will add a fix for RIL (if present in the end users end)
 
 ## For Pixel 7 users:
-The changes will also apply, however if no crdroid update is available you will be bumped to v2.9 of the release with any changes to the existing build.prop from v2.8 builds from different devices and will not included a crdroid build update unless a new one is available.
+The changes will also apply, however if no crdroid update is available you will be bumped to v2.9 of the release with any changes to the existing build.prop from v2.8 builds from different devices and will not included a crdroid build update unless a new one is available. UPDATE FOR THE PIXEL 7 IS NOW LIVE!
