@@ -81,15 +81,10 @@ ro.modversion=11.1
 ro.crdroidlegal.url=https://crdroid.net/legal.php
 debug.atrace.tags.enableflags=0
 persist.traced.enable=1
-dalvik.vm.image-dex2oat-Xms=94m
-dalvik.vm.image-dex2oat-Xmx=94m
-dalvik.vm.dex2oat-Xms=94m
+dalvik.vm.image-dex2oat-Xms=64m
+dalvik.vm.image-dex2oat-Xmx=64m
+dalvik.vm.dex2oat-Xms=64m
 dalvik.vm.dex2oat-Xmx=512m
-dalvik.vm.heaptargetutilization=0.75
-dalvik.vm.heaputilization=0.25
-dalvik.vm.dexopt-flags=v=a,o=v,m=y,u=y
-dalvik.vm.stack-trace-file=/data/anr/traces.txt
-persist.sys.dalvik.vm.lib=libart.so
 dalvik.vm.usejit=true
 dalvik.vm.dexopt.secondary=true
 dalvik.vm.dexopt.thermal-cutoff=2
@@ -128,19 +123,70 @@ ro.cp_system_other_odex=1
 ro.apex.updatable=true
 ro.launcher.blur.appLaunch=0
 persist.settings.large_screen_opt.enabled=false
-
+####################################
+# from variable CUSTOM_PROPERTIES
+####################################
 # Java VM configuration
 dalvik.vm.dex2oat-threads=8
 dalvik.vm.dex2oat-thread_count=8
 ro.sys.fw.dex2oat_thread_count=8
 dalvik.vm.boot-dex2oat-threads=8
 dalvik.vm.image-dex2oat-threads=8
+persist.sys.dex2oat.multithread=true
+dalvik.vm.finalizer-timeout-ms=60000
+dalvik.vm.heaptargetutilization=0.75
+dalvik.vm.heaputilization=0.25
+dalvik.vm.dexopt-flags=v=a,o=v,m=y,u=y
+dalvik.vm.stack-trace-file=/data/anr/traces.txt
+persist.sys.dalvik.vm.lib=libart.so
+dalvik.vm.execution-mode=int:jit
+dalvik.vm.jmiopts=forcecopy
 dalvik.vm.systemservercompilerfilter=speed-profile
 dalvik.vm.systemuicompilerfilter=speed-profile
+
+# Hwui configuration
+hwui.use_gpu_pixel_buffers=true
+debug.hwui.renderer=skiagl
+ro.hwui.disable_scissor_opt=false
+ro.hwui.texture_cache_size=24
+ro.hwui.layer_cache_size=16
+ro.hwui.gradient_cache_size=0.5
+ro.hwui.patch_cache_size=128
+ro.hwui.path_cache_size=4
+ro.hwui.shape_cache_size=1
+ro.hwui.drop_shadow_cache_size=2
+ro.hwui.r_buffer_cache_size=2
+ro.hwui.texture_cache_flush_rate=0.6
+ro.hwui.text_small_cache_width=1024
+ro.hwui.text_small_cache_height=256
+ro.hwui.text_large_cache_width=2048
+ro.hwui.text_large_cache_height=512
+hwui.text_gamma_correction=lookup
+hwui.text_gamma=1.4
+hwui.text_gamma.black_threshold=64
+hwui.text_gamma.white_threshold=192
+hwui.use_gpu_pixel_buffers=true
+hwui.render_dirty_regions=false
+hwui.use.blacklist=true
+ro.hwui.use_vulkan=true
+
+# Audio configuration
+af.resampler.quality=255
+persist.af.resampler.quality=255
+persist.dev.pm.dyn_samplingrate=1
+audio.safemedia.bypass=true
+audio.safemedia.force=false
+ro.audio.spatializer_enabled=true
+ro.audio.spatializer_enabled=true
+
+# Kernel configuration
+ro.kernel.android.checkjni=0
+debug.kill_allocating_task=0
 
 # USB configuration
 persist.sys.isUsbOtgEnabled=1
 persist.sys.usb.config=mtp,adb
+ro.sys.usb.mtp.whql.enable=1
 
 # Facelock configuration
 ro.facelock.black_timeout=1250
@@ -153,6 +199,7 @@ ro.media.effect.bgdropper.adj=0.2
 
 # RAM configuration
 persist.sys.purgeable_assets=1
+ro.ksm.default=1
 
 # Media configuration
 media.stagefright.enable-http=true
@@ -178,7 +225,7 @@ persist.mm.enable.prefetch=true
 vidc.dec.downscalar_width=2400
 vidc.dec.downscalar_height=1080
 vidc.enc.disable_bframes=1
-ro.media.enc.hprof.vid.fps=90
+ro.media.enc.hprof.vid.fps=120
 encoder.video.profile=high
 vendor.vidc.dec.enable.downscalar=1
 ro.media.dec.aud.wma.enabled=1
@@ -211,6 +258,7 @@ libplayer.netts.recalcpts=1
 media.libplayer.seek.fwdsearch=1
 media.player.forcemp3softdec=true
 debug.config.media.video.frc.support=true
+media.stagefright.thumbnail.prefer_hw_codecs=true
 
 # CPU configuration
 debug.performance.tuning=1
@@ -268,7 +316,7 @@ ro.networklocation.provider=1
 # Graphics configuration
 ro.opengles.version=196610
 debug.egl.force_msaa=1
-debug.egl.buffcount=3
+debug.egl.buffcount=4
 ro.config.dha_tunable=1
 debug.composition.type=gpu
 persist.sys.composition.type=gpu
@@ -278,12 +326,13 @@ video.accelerate.hw=1
 ro.hdmi.enable=true
 persist.sys.ui.hw=true
 debug.gr.numframebuffers=3
+persist.sys.use_16bpp_alpha=1
 
 # Display configuration 
 windowsmgr.max_events_per_sec=500
-ro.min_pointer_dur=8 
-ro.max.fling_velocity=12000
-ro.min.fling_velocity=8000
+ro.min_pointer_dur=8
+ro.max.fling_velocity=20000
+ro.min.fling_velocity=8192
 ro.sf.compbypass=0
 persist.sys.scrollingcache=4
 ro.min_pointer_dur=8
@@ -307,8 +356,12 @@ TapInterval=1ms
 TapSlop=1px1
 ro.product.multi_touch_enabled=true
 ro.product.max_num_touch=2
+persist.service.lgospd.enable=0
+persist.service.pcsync.enable=0
 
 # Cellular configuration
+ro.ril.transmitpower=true
+ro.ril.hep=1
 ro.config.hw_fast_dormancy=1
 persist.telephony.support.ipv6=1
 persist.telephony.support.ipv4=1
@@ -407,6 +460,7 @@ net.ipv6.conf.default.accept_redirects=0
 net.ipv6.conf.all.use_tempaddr=2
 net.ipv6.conf.default.use_tempaddr=2
 net.tcp.default_init_rwnd=60
+net.ipv6.conf.all.accept_redirects=0
 
 # Launcher configuration
 log.tag.launcher_force_rotate=VERBOSE
@@ -427,6 +481,7 @@ ro.hardware.qemu=0
 ro.storage_manager.enabled=true
 ro.sys.fw.use_trim_settings=true
 ro.trim.config=true
+logcat.live=disable
 ####################################
 # from variable PRODUCT_SYSTEM_DEFAULT_PROPERTIES
 ####################################
