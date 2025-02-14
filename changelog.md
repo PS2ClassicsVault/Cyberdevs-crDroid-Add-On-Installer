@@ -1,3 +1,16 @@
+## Version v2.9 (komodo)
+- Google Play Protect Service Stub was updated and no longer display "Android System Security Update" it will display rhe proper GPPS name.
+- Downgraded Gmail apk to v2019.12.30.289507923.release this decreases the size from 78mb is size to 27mb to decrease storage use footprint.
+- Installer was updated to remove old Gmail library files to reduce storage footprint since the v2019.12.30.289507923.release doesn't need it to function.
+- Added LineageOS Icons pack will allow you to switch home icons from either default icons or lineage os icons.
+- Removed the new dex2oat multithreading due to it not actually doing anything but negative effects.
+- hwui has returned but more reworked and tuned for better performance and UI smoothness.
+- added a tweak that disables google usage data (this should help prevent google receiving data that could be used to revoke GPC (Goog ePlay Certification) consoles used a similar method to prevent sony from banning them).
+- hwui will now use skiagl to render ui (vulkan will still do it's thing).
+- added a fix for RIL (if present in the end users end)
+- Disabled kernel error checking (helps give a performance boost)
+- Updated build prop to the latest crDroid build 11.2 02/14/2025
+
 ## Version v2.9 (panther)
 - Google Play Protect Service Stub was updated and no longer display "Android System Security Update" it will display rhe proper GPPS name.
 - Downgraded Gmail apk to v2019.12.30.289507923.release this decreases the size from 78mb is size to 27mb to decrease storage use footprint.
