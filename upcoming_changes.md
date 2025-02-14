@@ -17,6 +17,6 @@ komodo, caiman
 
 # What's Changing:
 - will update build prop to the latest crDroid release.
-- 
+
 ## For Pixel 7 users:
 The changes will also apply, however if no crdroid update is available you will be bumped to v2.9 of the release with any changes to the existing build.prop from v2.8 builds from different devices and will not included a crdroid build update unless a new one is available. UPDATE FOR THE PIXEL 7 IS NOW LIVE!
