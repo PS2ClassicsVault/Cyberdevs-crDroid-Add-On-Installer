@@ -15,8 +15,13 @@ komodo, caiman
 ### Build ETA Date (This date can change at anytime & does not indicate it's accurate availability):
 02/15/2025
 
+### for build:
+crDroid 11.2 | 2/15/25
+
 # What's Changing:
 - will update build prop to the latest crDroid release.
+- Will include a updater app that goes directly to crDroids Updater so that you do not need to access settings to get to it.
+- HWUI will be retweaked.
 
 ## For Pixel 7 users:
 The changes will also apply, however if no crdroid update is available you will be bumped to v2.9 of the release with any changes to the existing build.prop from v2.8 builds from different devices and will not included a crdroid build update unless a new one is available. UPDATE FOR THE PIXEL 7 IS NOW LIVE!
