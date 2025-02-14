@@ -106,8 +106,8 @@ compute_apps_size() {
 
 ui_print "*******************************"
 ui_print "    Cyberdev's Pixel 9 Pro     "
-ui_print "  crDroid 11.2 2/10/25 Add-On  "
-ui_print "     Installer v2.8 Rev. 2     "
+ui_print "  crDroid 11.2 2/14/25 Add-On  "
+ui_print "     Installer v2.9 Rev. 2     "
 ui_print "*******************************"
 
 ui_print "Extracting files"
@@ -237,11 +237,22 @@ cd system
 # Detect caiman
 DEVICE=$(getprop ro.build.product)
 if [ "$DEVICE" == "caiman" ]; then
-  ui_print "Detected caiman device. Deleting GooglePPS library files"
+  ui_print "Detected caiman device. Purging old library files, Please Wait...1/2"
   rm -rf product/app/GooglePPS/lib
 else
   rm -rf product/app/GooglePPS/lib
 fi
+
+# Detect caiman
+DEVICE=$(getprop ro.build.product)
+if [ "$DEVICE" == "caiman" ]; then
+  ui_print "Purging library files, Almost done...2/2"
+  rm -rf product/app/Gmail/lib
+else
+  rm -rf product/app/Gmail/lib
+fi
+
+ui_print "Purge of old library files done!"
 
 compute_apps_size
 
