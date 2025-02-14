@@ -10,6 +10,9 @@
 - dalvik will rule when a timeout in order top process the next set of inscructions to lower load of dalvik processiing via tweaks
 - improved audio performance
 - added a fix for RIL (if present in the end users end)
+- Increased min screen fling from 8000 to 8192 and max screen fling from 10000 to 20000
+- Disabled kernel error checking (helps give a performance boost)
+- Reverted dalvik vm to 64m/64m on boot and 64m/512m.
 
 ## Version v2.8 (caiman) | crDroid 11.2 | 02/10/2025
 - Improved dex2oat but adding a new dex2oat multithread tweak.
