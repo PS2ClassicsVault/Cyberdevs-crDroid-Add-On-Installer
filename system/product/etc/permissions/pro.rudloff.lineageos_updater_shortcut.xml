@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <privapp-permissions package="pro.rudloff.lineageos_updater_shortcut">
+        <permission name="android.permission.POST_NOTIFICATIONS"/>
+    </privapp-permissions>
+</permissions>
