@@ -4,6 +4,7 @@
 - Added a new Updater app, this will allow you to access crDroids System Updater app w/out having to go to settings everytine to access it.
 - Added a Google Icons pack this changes how icons looks and changes specific icons to where they used to look like in the old days of android.
 - Updated installer script to provide more information during install.
+- Reworked HWUI (final change)
 
 ### NOTICE:
 if you update the OS via the new Updater app, there is a chance where when updating crdroid it will uninstall many of our apps we install via this mod, but will be reinstalled when installing outlr mod update.
