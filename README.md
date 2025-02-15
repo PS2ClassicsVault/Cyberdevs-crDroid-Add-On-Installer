@@ -35,6 +35,8 @@ The following applications/features are installed when you install this mod:
 - Google Pixel Buds STUB (Updatable via the Google Play Store)
 - Google Gemini
 - LineageOS Icons (change icons in crdroid home settings)
+- Google Icons (change icons in crdroid home settings)
+- Updater App shortcut
 
 ### Features:
 - Pixel 9 Official Stock Bootanimation
