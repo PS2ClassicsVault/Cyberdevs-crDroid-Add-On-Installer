@@ -1,3 +1,13 @@
+## Version v3.0 (komodo)
+- Added back tweaks that were accidentally removed from.v2.9.
+- Updated build prop to the latest crDroid build 11.2 02/15/2025
+- Added a new Updater app, this will allow you to access crDroids System Updater app w/out having to go to settings everytine to access it.
+- Added a Google Icons pack this changes how icons looks and changes specific icons to where they used to look like in the old days of android.
+- Updated installer script to provide more information during install.
+
+### NOTICE:
+if you update the OS via the new Updater app, there is a chance where when updating crdroid it will uninstall many of our apps we install via this mod, but will be reinstalled when installing outlr mod update.
+
 ## Version v2.9 (caiman)
 - Google Play Protect Service Stub was updated and no longer display "Android System Security Update" it will display the proper GPPS name.
 - Downgraded Gmail apk to v2019.12.30.289507923.release this decreases the size from 78mb is size to 27mb to decrease storage use footprint.
