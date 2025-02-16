@@ -10,7 +10,7 @@ This just inform you what is to expect before the update is released. This will 
 v3.0
 
 ### Device(s):
-komodo, caiman 
+komodo, caiman & panther
 
 ### Build ETA Date (This date can change at anytime & does not indicate it's accurate availability):
 02/16/2025
@@ -27,6 +27,3 @@ crDroid 11.2 | 2/16/25
 - HWUI will be retweaked.
 -  Google Icons will be added (this will change how vertain google icons used to be like in the old days, but change how other icons looks like as filled up instead of no fill up)
 -  Readding certain tweaks ther were accidentally removed.
-
-## For Pixel 7 users:
-The changes will also apply, however if no crdroid update is available you will be bumped to v2.9 of the release with any changes to the existing build.prop from v2.8 builds from different devices and will not included a crdroid build update unless a new one is available. UPDATE FOR THE PIXEL 7 IS NOW LIVE!
