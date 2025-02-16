@@ -1,3 +1,7 @@
+## Version v3.1 (koomodo)
+- Fixed constant fps drop below 60fps by applying a fps tweak that forcees it to be at 60fps min and 120fps max (should help UI & games)
+- Updated build prop to the latest crDroid build 11.2 02/16/2025
+
 ## Version v3.0 (panther)
 - Added back tweaks that were accidentally removed from v2.9.
 - Updated build prop to the latest crDroid build 11.2 02/15/2025
