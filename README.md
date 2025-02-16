@@ -68,5 +68,8 @@ Other OS (if above fails): `adb -d sideload filename.zip`
 
 If successful it will begin to run the installer, it will only take less than a minute to comeplete.
 
+## UPDATING VIA THE UPDATER APP NOTICE:
+- Before installing a crDroid update using the "Updater" application installed along side this mod, be aware that during the installation of the update applications (excluding the build.prop modifications, that is reverted by the OS update itself) installed by our mod will be uninstalled and you will notice some or all apps installed by this mod were removed, this is becasue it is set to clean installation mode to ensure these apps do not break on install. If you wish for this to not ouccur please consider installing the update via the System Settings application and updating the OS from there.
+
 # NOTICE OF DEVICE SUPPORT:
 If you wish for you variant of the Pixel 7/9 to be supported you will need to take the initiative to pass your build prop to me on every new update otherwise your device will not be updated!
