@@ -106,8 +106,8 @@ compute_apps_size() {
 
 ui_print "*******************************"
 ui_print "    Cyberdev's Pixel 9 Pro     "
-ui_print "  crDroid 11.2 2/14/25 Add-On  "
-ui_print "     Installer v2.9 Rev. 2     "
+ui_print "  crDroid 11.2 2/16/25 Add-On  "
+ui_print "     Installer v3.1 Rev. 2     "
 ui_print "*******************************"
 
 ui_print "Extracting files"
@@ -287,7 +287,7 @@ done
 cat addon.d/addond_tail >> addon.d/30-gapps.sh
 rm addon.d/addond_head addon.d/addond_tail
 
-ui_print "Preparing files for copying"
+ui_print "Preparing files for installation..."
 for d in `find . -mindepth 1 -type d -type d`; do
   set_perm 0755 $d
   set_owner root root $d
@@ -303,7 +303,7 @@ for f in `find . -type f`; do
   set_con system_file $f
 done
 
-ui_print "Copying files"
+ui_print "Installing crDroid 11.2 Mod, Please wait..."
 cp --preserve=a -r ./* "${SYSTEM_OUT}/"
 if [ -n "$PRODUCT_BLOCK" ]; then
   cp --preserve=a -r ./product/* /product
@@ -318,5 +318,6 @@ fi
 
 cleanup
 
-ui_print "Done!"
+ui_print "Installation completed..Enjoy!"
+ui_print "Please allow up to 30 mins for the ART runtime to compile on boot!"
 exit 0
