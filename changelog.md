@@ -1,7 +1,3 @@
-## Version v3.1 (komodo)
-- Fixed constant fps drop below 60fps by applying a fps tweak that forces it to be at 60fps min and 120fps max (should help UI & games)
-- Updated build prop to the latest crDroid build 11.2 02/16/2025
-
 ## Version v3.1 (caiman)
 - Fixed constant fps drop below 60fps by applying a fps tweak that forces it to be at 60fps min and 120fps max (should help UI & games)
 - Updated build prop to the latest crDroid build 11.2 02/16/2025
@@ -11,6 +7,9 @@
 - Updated installer script to provide more information during install.
 - Reworked HWUI (final change)
 
+## Version v3.1 (komodo)
+- Fixed constant fps drop below 60fps by applying a fps tweak that forces it to be at 60fps min and 120fps max (should help UI & games)
+- Updated build prop to the latest crDroid build 11.2 02/16/2025
 
 ## Version v3.0 (panther)
 - Added back tweaks that were accidentally removed from v2.9.
