@@ -13,12 +13,15 @@ v3.0
 komodo, caiman 
 
 ### Build ETA Date (This date can change at anytime & does not indicate it's accurate availability):
-02/15/2025
+02/16/2025
 
 ### for build:
-crDroid 11.2 | 2/15/25
+crDroid 11.2 | 2/16/25
 
 # What's Changing:
+- Will attempt to force fps to not go under 60 foz in most cases
+
+## For caiman
 - will update build prop to the latest crDroid release.
 - Will include a updater app that goes directly to crDroids Updater so that you do not need to access settings to get to it.
 - HWUI will be retweaked.
