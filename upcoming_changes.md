@@ -7,7 +7,7 @@ This just inform you what is to expect before the update is released. This will 
 ## Update Information:
 
 ### Version:
-v3.1
+v3.2
 
 ### Device(s):
 komodo & caiman
