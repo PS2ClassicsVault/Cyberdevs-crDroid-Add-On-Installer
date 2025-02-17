@@ -7,23 +7,21 @@ This just inform you what is to expect before the update is released. This will 
 ## Update Information:
 
 ### Version:
-v3.0
+v3.1
 
 ### Device(s):
-komodo, caiman & panther
+komodo & caiman
 
 ### Build ETA Date (This date can change at anytime & does not indicate it's accurate availability):
-02/16/2025
+02/17/2025
 
 ### for build:
-crDroid 11.2 | 2/16/25
+crDroid 11.2 | 2/17/25
 
 # What's Changing:
-- Will attempt to force fps to not go under 60 foz in most cases
-
+- Will be setting composition to be dynamic rendering instead of just rendering to the gpu this should relieve some woekload grom the gpu.
+- Will update to the latest crDroid release.
+- 
 ## For caiman
-- will update build prop to the latest crDroid release.
-- Will include a updater app that goes directly to crDroids Updater so that you do not need to access settings to get to it.
-- HWUI will be retweaked.
--  Google Icons will be added (this will change how vertain google icons used to be like in the old days, but change how other icons looks like as filled up instead of no fill up)
--  Readding certain tweaks ther were accidentally removed.
+- - Will be setting composition to be dynamic rendering instead of just rendering to the gpu this should relieve some woekload grom the gpu.
+- Will update to the latest crDroid release.
