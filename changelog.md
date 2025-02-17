@@ -1,5 +1,5 @@
 ## Version v3.2 (komodo)
-Will be setting composition to be dynamic rendering instead of just rendering to the gpu this should relieve some workload grom the gpu.
+- Set composition to be dynamic rendering instead of just rendering to the gpu this should relieve some workload grom the gpu.
 - Updated build prop to the latest crDroid build 11.2 02/17/2025
 
 ## Version v3.1 (caiman)
