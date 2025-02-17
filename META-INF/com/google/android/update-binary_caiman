@@ -107,7 +107,7 @@ compute_apps_size() {
 ui_print "*******************************"
 ui_print "    Cyberdev's Pixel 9 Pro     "
 ui_print "  crDroid 11.2 2/16/25 Add-On  "
-ui_print "     Installer v3.1 Rev. 2     "
+ui_print "     Installer v3.2 Rev. 2     "
 ui_print "*******************************"
 
 ui_print "Extracting files"
