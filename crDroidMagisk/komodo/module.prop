@@ -1,0 +1,9 @@
+id=crDroid_11.2_komodo
+name=crDroid 11.2 P9P XL (komodo) Mod
+version=v1
+versionCode=1
+author=Cyberdev
+description=Injects applications,and build prop tweaks for crDroid 11.2 (komodo).
+support=https://github.com/PS2ClassicsVault/Cyberdevs-Pixel-7-and-9-CrDroid-Add-On-Installer/issues
+changelog=https://raw.githubusercontent.com/PS2ClassicsVault/Cyberdevs-Pixel-7-and-9-CrDroid-Add-On-Installer/refs/heads/main/changelog.md
+updateJson=https://raw.githubusercontent.com/PS2ClassicsVault/Cyberdevs-Pixel-7-and-9-CrDroid-Add-On-Installer/refs/heads/main/crDroidMagisk/komodo/update.json
