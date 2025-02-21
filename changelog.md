@@ -1,3 +1,15 @@
+## Version v3.3 (komodo)
+- Updated build prop to the latest crDroid build 11.2 02/21/2025
+- added battery saving w/out loss of performance tweaks.
+- Added bluetooth tweaks to improve performance.
+- added more audio tweaks for better audio quality.
+- added a tweak that disables window blurs by default
+- Added a tweak for the launcher auto rotate to be on by default by tweak.
+- Added tweak the enables the drm service for apps that needs it.
+- Improved UI smoothness and speed
+- Added Isa tweaks for arch
+- More ram improvement via tweaks
+
 ## Version v3.2 (caiman)
 - Set composition to be dynamic rendering instead of just rendering to the gpu this should relieve some workload grom the gpu.
 - Updated build prop to the latest crDroid build 11.2 02/17/2025
