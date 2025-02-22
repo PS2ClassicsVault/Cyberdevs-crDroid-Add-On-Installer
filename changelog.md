@@ -1,3 +1,6 @@
+## Version v3.4 (komodo)
+- Updated build prop to the latest crDroid build 11.2 02/22/2025
+  
 ## Version v3.3 (caiman)
 - Updated build prop to the latest crDroid build 11.2 02/21/2025
 - added battery saving w/out loss of performance tweaks.
