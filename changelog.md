@@ -9,7 +9,7 @@
 - Improved UI smoothness and speed
 - Added Isa tweaks for arch
 - More ram improvement via tweaks
-- Includes revisjon 2 fixes from komodo
+- Includes revision 2 fixes from komodo
 
 ## Version v3.3 (komodo)
 - Updated build prop to the latest crDroid build 11.2 02/21/2025
