@@ -150,8 +150,7 @@ persist.sys.dalvik.vm.lib=libart.so
 dalvik.vm.execution-mode=int:fast
 dalvik.vm.jmiopts=forcecopy
 dalvik.vm.dexopt-data-only=1
-dalvik.vm.systemservercompilerfilter=speed-profile
-dalvik.vm.systemuicompilerfilter=speed-profile
+dalvik.vm.systemservercompilerfilter=speed
 
 # Bluetooth configuration
 persist.bt.enableAptXHD=true
@@ -261,14 +260,6 @@ ro.media.effect.bgdropper.adj=0.2
 # RAM configuration
 persist.sys.purgeable_assets=1
 ro.ksm.default=1
-ro.config.fha_enable=true 
-ro.config.dha_cached_max=16
-ro.config.dha_empty_max=42
-ro.config.dha_empty_init=32
-ro.config.dha_lmk_scale=0.545
-ro.config.dha_th_rate=2.3
-ro.config.sdha_apps_bg_max=64
-ro.config.sdha_apps_bg_min=8
 
 # Media configuration
 media.stagefright.enable-http=true
