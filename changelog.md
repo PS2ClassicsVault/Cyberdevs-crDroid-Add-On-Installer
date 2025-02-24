@@ -1,3 +1,8 @@
+## Version v3.5 (komodo)
+- Updated build prop to the latest crDroid build 11.2 02/24/2025.
+- Enabled VOLTe feature on by default.
+- Rehauled the tweaks becasue performance was terrible, it's definitely fixed now.
+
 ## Version v3.4 (komodo)
 - Updated build prop to the latest crDroid build 11.2 02/22/2025
   
