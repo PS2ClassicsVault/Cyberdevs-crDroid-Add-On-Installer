@@ -127,59 +127,99 @@ persist.settings.large_screen_opt.enabled=false
 # from variable CUSTOM_PROPERTIES
 ####################################
 # Java VM configuration
-dalvik.vm.dex2oat-threads=8
-dalvik.vm.dex2oat-thread_count=8
-ro.sys.fw.dex2oat_thread_count=8
-dalvik.vm.boot-dex2oat-threads=8
-dalvik.vm.image-dex2oat-threads=8
-dalvik.vm.background-dex2oat-threads=8
 dalvik.vm.heaptargetutilization=0.75
 dalvik.vm.heaputilization=0.25
 dalvik.vm.dexopt-flags=v=a,o=v,m=y,u=y
 dalvik.vm.stack-trace-file=/data/anr/traces.txt
 persist.sys.dalvik.vm.lib=libart.so
-dalvik.vm.execution-mode=int:fast
-dalvik.vm.jmiopts=forcecopy
-dalvik.vm.dexopt-data-only=1
-dalvik.vm.systemservercompilerfilter=speed-profile
-dalvik.vm.systemuicompilerfilter=speed-profile
+dalvik.vm.execution-mode=int:jit
 
-# Hwui configuration
-hwui.use_gpu_pixel_buffers=true
-debug.hwui.renderer=skiagl
-ro.hwui.use_vulkan=true
+# Bluetooth configuration
+persist.bt.enableAptXHD=true
+persist.service.btui.use_aptx=1
+persistent.vendor.bt.a2dp_offload_cap=sbc-aac-aptx-aptXHD-aptxtws
+persist.bt.a2dp.aptx_hd_disable=false
+audio.effect.a2dp.enable=1
+vendor.audio.effect.a2dp.enable=1
+qcom.hw.aac.encoder=true
+vendor.audio.hw.aac.encoder=true
+persist.service.btui.use_aptx=1
+persist.bt.a2dp.aptx_disable=false
+persist.bt.a2dp.aptx_hd_disable=false
+persist.bt.a2dp.aac_disable=false
+persist.bt.sbc_hd_enabled=1
+persist.vendor.btstack.enable.lpa=false
+persist.vendor.bt.a2dp.aac_whitelist=false
+persist.vendor.bt.aac_frm_ctl.enabled=true
+persist.vendor.bt.aac_vbr_frm_ctl.enabled=true
+persist.vendor.btstack.enable.twsplus=true
+persist.bluetooth.bqr.event_mask=14
+persist.bluetooth.bqr.min_interval_ms=500
+persist.vendor.bt.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac
+persist.vendor.bt.a2dp.hal.implementation=true
+persist.vendor.bt.a2dp.mac_whitelist=false
+persist.vendor.btstack.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac
+persist.vendor.btstack.absvolfeature=true
+persist.vendor.btstack.enable.splita2dp=true
+persist.vendor.btstack.enable.twsplussho=true
+persist.vendor.qcom.bluetooth.scram.enabled=false
+persist.vendor.qcom.bluetooth.aac_frm_ctl.enabled=true
+persist.vendor.qcom.bluetooth.aac_vbr_ctl.enabled=true
+persist.vendor.qcom.bluetooth.twsp_state.enabled=false
+persist.bluetooth.sbc_hd_higher_bitrate=1
+persist.sys.flag.override.settings_bluetooth_hearing_aid=true
+ro.bluetooth.emb_wp_mode=true
+ro.bluetooth.wipower=true
+
+# Battery configuration
+ro.ril.disable.power.collapse=0
+ro.ril.power_collapse=1
+power_supply.wakeup=enable
+profiler.force_disable_err_rpt=1
+profiler.force_disable_ulog=1
+suspend.short_suspend_threshold_millis=2000
+suspend.short_suspend_backoff_enabled=true
+suspend.max_sleep_time_millis=40000
 
 # Audio configuration
 af.resampler.quality=255
 persist.af.resampler.quality=255
+ro.audio.samplerate=48000
+ro.audio.pcm.samplerate=48000
 persist.dev.pm.dyn_samplingrate=1
 audio.safemedia.bypass=true
 audio.safemedia.force=false
 ro.audio.spatializer_enabled=true
 ro.audio.spatializer_enabled=true
+persist.audio.fluence.mode=endfire
+persist.audio.hp=true
+persist.audio.vr.enable=false
+persist.audio.handset.mic=digital
+persist.audio.lowlatency.rec=false
 
 # fps configuration
 ro.fps_enable=1
 ro.fps.capsmin=60fps
-ro.fps.capsmax=90fps
+ro.fps.capsmax=120fps
 sys.use_fifo_ui=1
-persist.sys.NV_FPSLIMIT=90
+persist.sys.NV_FPSLIMIT=120
 persist.sys.NV_POWERMODE=1
-ro.gpu.max_fps=90
+ro.gpu.max_fps=120
 ro.gpu.min_fps=60
-ro.cpu.max_fps=90
+ro.cpu.max_fps=120
 ro.cpu.min_fps=60
-ro.vendor.display.default_fps=90
+ro.vendor.display.default_fps=120
 ro.vendor.display.min_fps=60
-persist.sys.fpslimit=90
+persist.sys.fpslimit=120
+ro.vendor.display.default_fps=120
+debug.sf.latch_unsignaled=1
 
 # Kernel configuration
 ro.kernel.android.checkjni=0
-debug.kill_allocating_task=0
 
 # USB configuration
 persist.sys.isUsbOtgEnabled=1
-persist.sys.usb.config=mtp,adb
+persist.sys.usb.config=mtp
 ro.sys.usb.mtp.whql.enable=1
 
 # Facelock configuration
@@ -193,7 +233,6 @@ ro.media.effect.bgdropper.adj=0.2
 
 # RAM configuration
 persist.sys.purgeable_assets=1
-ro.ksm.default=1
 
 # Media configuration
 media.stagefright.enable-http=true
@@ -209,9 +248,6 @@ media.camera.ts.monotonic=1
 mmp.enable.3g2=true
 media.aac_51_output_enabled=true
 mm.enable.smoothstreaming=true
-persist.audio.fluence.mode=endfire
-persist.audio.vr.enable=true
-persist.audio.handset.mic=digital
 mpq.audio.decode=true
 persist.sys.media.use-awesome=1
 ro.media.enc.jpeg.quality=100
@@ -253,10 +289,11 @@ media.libplayer.seek.fwdsearch=1
 media.player.forcemp3softdec=true
 debug.config.media.video.frc.support=true
 media.stagefright.thumbnail.prefer_hw_codecs=true
+ro.streaming.video.drs=true
+mmp.enable.mov=true
 
 # CPU configuration
 debug.performance.tuning=1
-dalvik.vm.dex2oat-cpu-set=0,1,2,3,5,6,7,8
 
 # Sensor configuration
 sensor.accelerometer.batch=1
@@ -276,15 +313,17 @@ ro.hardware.fingerprint.delay=0
 # Date configuration
 ro.com.android.dateformat=mm-dd-yyyy
 persist.ntp.server=pool.ntp.org
-persist.backup.ntpserver=north-america.pool.ntp.org
+persist.backup.ntpserver=0.pool.ntp.org
 persist.sys.auto_time_zone=1
 persist.sys.auto_time=1
 persist.ntp.timeout=5000
+persist.timed.enable=true
 
 # Wi-Fi configuration
-wifi.supplicant_scan_interval=180
-persist.wifi_scan_interval=180
+wifi.supplicant_scan_interval=250
+persist.wifi_scan_interval=250
 ro.config.combined_signal=true
+ro.config.hw_new_wifitopdp=1
 
 # Google services configuration
 ro.com.google.maps.networklocation=1
@@ -322,6 +361,7 @@ ro.hdmi.enable=true
 persist.sys.ui.hw=true
 debug.gr.numframebuffers=3
 persist.sys.use_16bpp_alpha=0
+persist.sys.sf.disable_blurs=1
 
 # Display configuration 
 windowsmgr.max_events_per_sec=500
@@ -350,7 +390,8 @@ MultitouchMinDistance=1px
 TapInterval=1ms
 TapSlop=1px1
 ro.product.multi_touch_enabled=true
-ro.product.max_num_touch=2
+ro.product.min_num_touch=2
+ro.product.max_num_touch=4
 persist.service.lgospd.enable=0
 persist.service.pcsync.enable=0
 
@@ -403,6 +444,20 @@ persist.radio.data_ltd_sys_ind=1
 persist.radio.data_con_rprt=1
 persist.radio.calls.on.ims=1
 persist.radio.VT_ENABLE=1
+ro.telephony.default_network=26
+ro.ril.def.agps.mode=2
+ro.ril.def.agps.feature=1
+telephony.lteOnCdmaDevice=1
+persist.radio.multisim.config=dsds
+ro.use_data_netmgrd=true
+persist.data.netmgrd.qos.enable=true
+persist.dbg.ims_volte_enable=1
+persist.radio.calls.on.ims=1
+persist.radio.rat_on=combine
+persist.radio.data_ltd_sys_ind=1
+persist.radio.data_con_rprt=1
+persist.dbg.volte_avail_ovr=1
+persist.radio.data_no_toggle=0
 
 # Network configuration
 net.tcp.buffersize.default=4096,87380,256960, 4096, 16384,256960
@@ -459,14 +514,9 @@ net.ipv6.conf.all.accept_redirects=0
 
 # Launcher configuration
 log.tag.launcher_force_rotate=VERBOSE
-
-# Wireless + TCP Speed & Security Tweaks
-net.core.wmem_max=1048576
-net.core.rmem_max=1048576
-net.core.rmem_default=262144
-net.core.wmem_default=262144
-net.core.optmem_max=20480
-net.unix.max_dgram_qlen=50
+ro.HOME_APP_ADJ=1
+persist.splitwindow.support_all=true
+launcher.force_enable_rotation=true
 
 # Hardware configuration
 sys.keep.settings=true
@@ -474,6 +524,9 @@ lockscreen.rot_override=true
 use.voice.path.for.pcm.voip=true
 ro.hardware.qemu=0
 ro.storage_manager.enabled=true
+windowsmgr.support_rotation_270=true
+ro.oem_unlock_supported=1
+drm.service.enabled=true
 ####################################
 # from variable PRODUCT_SYSTEM_DEFAULT_PROPERTIES
 ####################################
