@@ -1,3 +1,14 @@
+## Version v3.1 (panther)
+- added battery saving w/out loss of performance tweaks.
+- Added bluetooth tweaks to improve performance.
+- added more audio tweaks for better audio quality.
+- added a tweak that disables window blurs by default
+- Added a tweak for the launcher auto rotate to be on by default by tweak.
+- Added tweak the enables the drm service for apps that needs it.
+- Enabled VOLTe feature on by default.
+- Rehauled the tweaks because performance was terrible, it's definitely fixed now.
+- Fixed missing permissions xml files that was not present v3.0 build, the installer will now includes them.
+
 ## Version v3.5 (caiman)
 - Updated build prop to the latest crDroid build 11.2 02/24/2025.
 - Enabled VOLTe feature on by default.
