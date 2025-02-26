@@ -13,13 +13,13 @@ v3.6
 komodo & caiman
 
 ### Build ETA Date (This date can change at anytime & does not indicate it's accurate availability):
-02/26/2025
+02/27/2025
 
 ### for build:
-crDroid 11.2 | 2/26/25
+crDroid 11.2 | 2/27/25
 
 # What's Changing:
 - Will permanenly disable dta usage sending (fully stoppoing google from violating your privacy as announced by google)
-- Will be setting windowsmgt per second from 500 to 120
+- Will be setting windowsmgt per second from 500 to 1000
 - Will fix issue where modbile data was not being enabled by default.
 - Will be updating build prop to the latest crDroid release
