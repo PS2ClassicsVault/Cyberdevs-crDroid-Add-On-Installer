@@ -7,19 +7,19 @@ This just inform you what is to expect before the update is released. This will 
 ## Update Information:
 
 ### Version:
-v3.4
+v3.6
 
 ### Device(s):
 komodo & caiman
 
 ### Build ETA Date (This date can change at anytime & does not indicate it's accurate availability):
-02/23/2025
+02/26/2025
 
 ### for build:
-crDroid 11.2 | 2/23/25
+crDroid 11.2 | 2/26/25
 
 # What's Changing:
-- Enabling mobile datas on by default (hopefully)
-- Enabling VOLTe feature on by default
-- Rehauling the tweaks becasue something is still casuing the lag not sure what but it will be dealt with
+- Will permanenly disable dta usage sending (fully stoppoing google from violating your privacy as announced by google)
+- Will be setting windowsmgt per second from 500 to 120
+- Will fix issue where modbile data was not being enabled by default.
 - Will be updating build prop to the latest crDroid release
