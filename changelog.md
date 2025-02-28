@@ -1,3 +1,8 @@
+## Version v3.6 (komodo)
+- updated build.prop to the latest crDroid 2/28/2025 release
+- removed windowsmgt tweak
+- improved overall touch response.
+
 ## Version v3.1 (panther)
 - added battery saving w/out loss of performance tweaks.
 - Added bluetooth tweaks to improve performance.
