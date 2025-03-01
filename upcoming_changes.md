@@ -7,19 +7,17 @@ This just inform you what is to expect before the update is released. This will 
 ## Update Information:
 
 ### Version:
-v3.6
+v3.7
 
 ### Device(s):
 komodo & caiman
 
 ### Build ETA Date (This date can change at anytime & does not indicate it's accurate availability):
-02/28/2025
+02/29/2025
 
 ### for build:
-crDroid 11.2 | 2/28/25
+crDroid 11.2 | 2/29/25
 
 # What's Changing:
-- Will permanenly disable dta usage sending (fully stoppoing google from violating your privacy as announced by google)
-- Will be removing windowsmgt per second from the tweaks
-- Will fix issue where modbile data was not being enabled by default.
+- Will be adding YouTube as a system app (requires update to access YouTube services)
 - Will be updating build prop to the latest crDroid release
