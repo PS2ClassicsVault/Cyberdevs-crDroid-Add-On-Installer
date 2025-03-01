@@ -20,4 +20,5 @@ crDroid 11.2 | 2/29/25
 
 # What's Changing:
 - Will be adding YouTube as a system app (requires update to access YouTube services)
+- Will update the installer to include information regarding what apps are being installed, this is for more transparency on what is currently being installed.
 - Will be updating build prop to the latest crDroid release
