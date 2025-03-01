@@ -2,7 +2,7 @@
 - Updated build prop to the latest crDroid build 11.2 03/01/2025.
 - Added YouTube app.
 - Improved overall performance
-- Updated installer to be more trnspearent of what apps are being installed.
+- Updated installer to be more transparent of what apps are being installed.
 
 ## Version v3.6 (komodo)
 - updated build.prop to the latest crDroid 2/28/2025 release
