@@ -1,3 +1,11 @@
+## Version v3.7 (caiman)
+- Updated build prop to the latest crDroid build 11.2 03/01/2025.
+- Added YouTube app.
+- Improved overall performance
+- Updated installer to be more transparent of what apps are being installed.
+- removed windowsmgt tweak.
+- improved overall touch response.
+
 ## Version v3.7 (komodo)
 - Updated build prop to the latest crDroid build 11.2 03/01/2025.
 - Added YouTube app.
