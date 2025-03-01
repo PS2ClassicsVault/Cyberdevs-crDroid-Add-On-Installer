@@ -37,6 +37,7 @@ The following applications/features are installed when you install this mod:
 - LineageOS Icons (change icons in crdroid home settings)
 - Google Icons (change icons in crdroid home settings)
 - Updater App shortcut
+- YouTube
 
 ### Features:
 - Pixel 9 Official Stock Bootanimation
