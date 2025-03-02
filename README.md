@@ -1,4 +1,4 @@
-![crdroid](urltoimage)
+![crdroid](images/crdroid.png)
 # Cyberdev's Pixel 7 & 9 crDroid Add-On Installer
 This mods crDroid with tweaks and extra applications that NikGapps didn't install upon installation!
 
