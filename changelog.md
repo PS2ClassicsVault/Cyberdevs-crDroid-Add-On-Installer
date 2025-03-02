@@ -1,3 +1,7 @@
+## Version v3.8 (caiman)
+- Updated build prop to the latest crDroid build 11.2 03/02/2025.
+- Improved overall performance
+
 ## Version v3.8 (komodo)
 - Updated build prop to the latest crDroid build 11.2 03/02/2025.
 - Improved overall performance
