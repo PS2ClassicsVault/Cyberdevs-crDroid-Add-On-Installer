@@ -106,8 +106,8 @@ compute_apps_size() {
 
 ui_print "*******************************"
 ui_print "          Cyberdev's           "
-ui_print " crDroid 11.2 Apps Only Add-On "
-ui_print "        Installer v1.0         "
+ui_print "  crDroid 11.1/11.2 Apps Only  "
+ui_print "     Add-On Installer v1.1     "
 ui_print "*******************************"
 
 ui_print "Extracting files"
@@ -283,7 +283,22 @@ for f in `find . -type f`; do
   set_con system_file $f
 done
 
-ui_print "Installing crDroid 11.2 Mod, Please wait..."
+ui_print "Installing crDroid 11.2 Mod (Apps Only), Please wait..."
+ui_print "Installing Google Play Protect STUB.."
+ui_print "Installing Gmail..."
+ui_print "Installing Google Find My Device.."
+ui_print "Installing YouTube.."
+ui_print "Installing Xperia Play Live Wallpaper.."
+ui_print "Installing Google Pixel 2, 3 and 4 Live Wallpapers.."
+ui_print "Installing Google Icon Pack.."
+ui_print "Installing LineageOS Icon Pack.."
+ui_print "Installing Updater Shourtcut.."
+ui_print "Installing Google Play Games.."
+ui_print "Installing Google Pixel Buds STUB.."
+ui_print "Installing Google Wallet.."
+ui_print "Installing Gemini.."
+ui_print "Installing Pixel 9 Stock Bootanimation.."
+ui_print "Installing required app permissions.."
 cp --preserve=a -r ./* "${SYSTEM_OUT}/"
 if [ -n "$PRODUCT_BLOCK" ]; then
   cp --preserve=a -r ./product/* /product
@@ -298,6 +313,8 @@ fi
 
 cleanup
 
+ui_print "Cleaning up before finishing installation..."
+ui_print "Cleanup finished."
 ui_print "Installation completed..Enjoy!"
 ui_print "This installer did not install or override the stock build.prop"
 exit 0
