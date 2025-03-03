@@ -134,7 +134,7 @@ dalvik.vm.heaputilization=0.25
 dalvik.vm.dexopt-flags=v=a,o=v,m=y,u=y
 dalvik.vm.stack-trace-file=/data/anr/traces.txt
 persist.sys.dalvik.vm.lib=libart.so
-dalvik.vm.execution-mode=int:fast
+dalvik.vm.execution-mode=int:jit
 
 # Bluetooth configuration
 persist.bt.enableAptXHD=true
