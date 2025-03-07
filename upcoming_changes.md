@@ -7,18 +7,16 @@ This just inform you what is to expect before the update is released. This will 
 ## Update Information:
 
 ### Version:
-v3.7
+v4.0
 
 ### Device(s):
 komodo & caiman
 
 ### Build ETA Date (This date can change at anytime & does not indicate it's accurate availability):
-02/29/2025
+3/07/2025
 
 ### for build:
-crDroid 11.2 | 2/29/25
+crDroid 11.2 | 3/07/25
 
 # What's Changing:
-- Will be adding YouTube as a system app (requires update to access YouTube services)
-- Will update the installer to include information regarding what apps are being installed, this is for more transparency on what is currently being installed.
 - Will be updating build prop to the latest crDroid release
