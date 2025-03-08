@@ -1,3 +1,8 @@
+## Version v3.2 (panther)
+- Overhauled the build.prop twekas for better optimization
+- Added YouTube to the installer.
+- Updated installer to show detailed info on what apps are being installed for better transpearancy
+
 ## Version v4.0 (caiman)
 - Updated build prop to the latest crDroid build 11.2 03/07/2025.
 
