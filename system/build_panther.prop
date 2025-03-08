@@ -137,7 +137,6 @@ dalvik.vm.execution-mode=int:jit
 # Bluetooth configuration
 persist.bt.enableAptXHD=true
 persist.service.btui.use_aptx=1
-persistent.vendor.bt.a2dp_offload_cap=sbc-aac-aptx-aptXHD-aptxtws
 persist.bt.a2dp.aptx_hd_disable=false
 audio.effect.a2dp.enable=1
 vendor.audio.effect.a2dp.enable=1
@@ -155,10 +154,8 @@ persist.vendor.bt.aac_vbr_frm_ctl.enabled=true
 persist.vendor.btstack.enable.twsplus=true
 persist.bluetooth.bqr.event_mask=14
 persist.bluetooth.bqr.min_interval_ms=500
-persist.vendor.bt.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac
 persist.vendor.bt.a2dp.hal.implementation=true
 persist.vendor.bt.a2dp.mac_whitelist=false
-persist.vendor.btstack.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac
 persist.vendor.btstack.absvolfeature=true
 persist.vendor.btstack.enable.splita2dp=true
 persist.vendor.btstack.enable.twsplussho=true
@@ -170,16 +167,6 @@ persist.bluetooth.sbc_hd_higher_bitrate=1
 persist.sys.flag.override.settings_bluetooth_hearing_aid=true
 ro.bluetooth.emb_wp_mode=true
 ro.bluetooth.wipower=true
-
-# Battery configuration
-ro.ril.disable.power.collapse=0
-ro.ril.power_collapse=1
-power_supply.wakeup=enable
-profiler.force_disable_err_rpt=1
-profiler.force_disable_ulog=1
-suspend.short_suspend_threshold_millis=2000
-suspend.short_suspend_backoff_enabled=true
-suspend.max_sleep_time_millis=40000
 
 # Audio configuration
 af.resampler.quality=255
@@ -197,30 +184,9 @@ persist.audio.vr.enable=false
 persist.audio.handset.mic=digital
 persist.audio.lowlatency.rec=false
 
-# fps configuration
-ro.fps_enable=1
-ro.fps.capsmin=60fps
-ro.fps.capsmax=120fps
-sys.use_fifo_ui=1
-persist.sys.NV_FPSLIMIT=120
-persist.sys.NV_POWERMODE=1
-ro.gpu.max_fps=120
-ro.gpu.min_fps=60
-ro.cpu.max_fps=120
-ro.cpu.min_fps=60
-ro.vendor.display.default_fps=120
-ro.vendor.display.min_fps=60
-persist.sys.fpslimit=120
-ro.vendor.display.default_fps=120
-debug.sf.latch_unsignaled=1
-
 # Kernel configuration
 ro.kernel.android.checkjni=0
-
-# USB configuration
-persist.sys.isUsbOtgEnabled=1
-persist.sys.usb.config=mtp
-ro.sys.usb.mtp.whql.enable=1
+ro.config.nocheckin=1
 
 # Facelock configuration
 ro.facelock.black_timeout=1250
@@ -244,53 +210,7 @@ media.stagefright.enable-fma2dp=true
 media.stagefright.enable-scan=true
 media.stagefright.enable-record=true
 media.stagefright.audio.deep=true
-media.camera.ts.monotonic=1
-mmp.enable.3g2=true
-media.aac_51_output_enabled=true
-mm.enable.smoothstreaming=true
-mpq.audio.decode=true
 persist.sys.media.use-awesome=1
-ro.media.enc.jpeg.quality=100
-persist.mm.enable.prefetch=true
-vidc.dec.downscalar_width=2400
-vidc.dec.downscalar_height=1080
-vidc.enc.disable_bframes=1
-ro.media.enc.hprof.vid.fps=120
-encoder.video.profile=high
-vendor.vidc.dec.enable.downscalar=1
-ro.media.dec.aud.wma.enabled=1
-ro.media.dec.vid.wmv.enabled=1
-ro.media.dec.aud.mp3.enabled=1
-ro.media.dec.vid.mp4.enabled=1
-ro.media.enc.aud.wma.enabled=1
-ro.media.enc.vid.wmv.enabled=1
-ro.media.enc.aud.mp3.enabled=1
-ro.media.enc.vid.mp4.enabled=1
-ro.media.dec.aud.flac.enabled=1
-ro.media.dec.vid.H.264.enabled=1
-ro.media.enc.aud.flac.enabled=1
-ro.media.enc.vid.H.264.enabled=1
-persist.mm.enable.prefetch=true
-mm.enable.smoothstreaming=true
-mm.enable.sec.smoothstreaming=true
-persist.mm.sta.enable=1
-mm.mpeg4dp.hw.support=true
-drm.service.enabled=true
-persist.camera.HDR=true
-ro.config.camera.hdr=true
-persist.camera.HAL3.enabled=1
-ro.media.capture.flash=led
-ro.media.capture.flashMinV=3300000
-ro.media.capture.torchIntensity=65
-ro.media.capture.flashIntensity=70
-libplayer.livets.softdemux=1
-libplayer.netts.recalcpts=1
-media.libplayer.seek.fwdsearch=1
-media.player.forcemp3softdec=true
-debug.config.media.video.frc.support=true
-media.stagefright.thumbnail.prefer_hw_codecs=true
-ro.streaming.video.drs=true
-mmp.enable.mov=true
 
 # CPU configuration
 debug.performance.tuning=1
@@ -348,7 +268,6 @@ ro.gps.agps_port=7276
 ro.networklocation.provider=1
 
 # Graphics configuration
-ro.opengles.version=196610
 debug.egl.force_msaa=1
 debug.egl.buffcount=4
 ro.config.dha_tunable=1
@@ -360,40 +279,37 @@ video.accelerate.hw=1
 ro.hdmi.enable=true
 persist.sys.ui.hw=true
 debug.gr.numframebuffers=3
-persist.sys.use_16bpp_alpha=0
-persist.sys.sf.disable_blurs=1
 
-# Display configuration 
+# Display configuration
 windowsmgr.max_events_per_sec=500
+windowsmgr.min_events_per_sec=120
 ro.min_pointer_dur=8
-ro.max.fling_velocity=20000
-ro.min.fling_velocity=8192
+ro.max.fling_velocity=12000
+ro.min.fling_velocity=8000
 ro.sf.compbypass=0
 persist.sys.scrollingcache=4
 ro.min_pointer_dur=8
 touch.pressure.scale=0.1
 touch.deviceType=touchScreen
 touch.orientationAware=1
-touch.size.calibration=diameter
+touch.size.calibration=geometric
+TapDragInterval=0.1ms
 touch.size.scale=1
 touch.size.bias=0
 touch.size.isSummed=0
 touch.pressure.calibration=amplitude
 touch.pressure.scale=0.001
-touch.orientation.calibration=none
-touch.distance.calibration=none
+touch.orientation.calibration=interpolated
+touch.distance.calibration=area
 touch.distance.scale=0
 touch.coverage.calibration=box
 touch.gestureMode=spots
-MultitouchSettleInterval=1ms
+MultitouchSettleInterval=0.1ms
 MultitouchMinDistance=1px
-TapInterval=1ms
+TapInterval=0.1ms
 TapSlop=1px1
 ro.product.multi_touch_enabled=true
-ro.product.min_num_touch=2
-ro.product.max_num_touch=4
-persist.service.lgospd.enable=0
-persist.service.pcsync.enable=0
+ro.product.max_num_touch=2
 
 # Cellular configuration
 ro.ril.transmitpower=true
@@ -457,7 +373,7 @@ persist.radio.rat_on=combine
 persist.radio.data_ltd_sys_ind=1
 persist.radio.data_con_rprt=1
 persist.dbg.volte_avail_ovr=1
-persist.radio.data_no_toggle=0
+persist.radio.data_no_toggle=1
 
 # Network configuration
 net.tcp.buffersize.default=4096,87380,256960, 4096, 16384,256960
@@ -514,9 +430,7 @@ net.ipv6.conf.all.accept_redirects=0
 
 # Launcher configuration
 log.tag.launcher_force_rotate=VERBOSE
-ro.HOME_APP_ADJ=1
 persist.splitwindow.support_all=true
-launcher.force_enable_rotation=true
 
 # Hardware configuration
 sys.keep.settings=true
@@ -524,9 +438,6 @@ lockscreen.rot_override=true
 use.voice.path.for.pcm.voip=true
 ro.hardware.qemu=0
 ro.storage_manager.enabled=true
-windowsmgr.support_rotation_270=true
-ro.oem_unlock_supported=1
-drm.service.enabled=true
 ####################################
 # from variable PRODUCT_SYSTEM_DEFAULT_PROPERTIES
 ####################################
