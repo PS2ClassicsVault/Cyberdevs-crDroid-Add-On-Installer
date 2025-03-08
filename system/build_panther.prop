@@ -282,7 +282,7 @@ debug.gr.numframebuffers=3
 
 # Display configuration
 windowsmgr.max_events_per_sec=500
-windowsmgr.min_events_per_sec=120
+windowsmgr.min_events_per_sec=90
 ro.min_pointer_dur=8
 ro.max.fling_velocity=12000
 ro.min.fling_velocity=8000
