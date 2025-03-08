@@ -1,7 +1,7 @@
 ## Version v3.8 (comet)
 - Initial release for comet using provided build.prop from the xda user: [dragynbane222](https://xdaforums.com/m/dragynbane222.4718179/)
 - Updated build prop to the latest crDroid build 11.2 03/02/2025.
-- Includes all twekas from build v4.0 from komodo & caiman
+- Includes all tweaks from build v4.0 from komodo & caiman
 
 ## Version v3.2 (panther)
 - Overhauled the build.prop twekas for better optimization.
