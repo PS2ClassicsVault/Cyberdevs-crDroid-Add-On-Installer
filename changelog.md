@@ -1,3 +1,6 @@
+## Version v4.1 (komodo)
+- Updated build prop to the latest crDroid build 11.2 03/10/2025.
+
 ## Version v3.8 (comet)
 - Initial release for comet using provided build.prop from the xda user: [dragynbane222](https://xdaforums.com/m/dragynbane222.4718179/)
 - Updated build prop to the latest crDroid build 11.2 03/02/2025.
