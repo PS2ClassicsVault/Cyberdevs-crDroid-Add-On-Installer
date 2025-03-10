@@ -106,7 +106,7 @@ compute_apps_size() {
 
 ui_print "*******************************"
 ui_print "   Cyberdev's Pixel 9 Pro XL   "
-ui_print "     crDroid 11.2 3/07/25      "
+ui_print "     crDroid 11.2 3/10/25      "
 ui_print "     Original build.prop       "
 ui}print "       Restore Installer.      "
 ui_print "*******************************"
