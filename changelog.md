@@ -1,6 +1,6 @@
 ## Version v4.2 (komodo)
 - Updated build prop to the latest crDroid build 11.2 03/12/2025.
-- 
+
 ## Version v4.1 (caiman)
 - Updated build prop to the latest crDroid build 11.2 03/10/2025.
 
