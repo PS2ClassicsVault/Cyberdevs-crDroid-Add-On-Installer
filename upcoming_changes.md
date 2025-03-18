@@ -7,16 +7,18 @@ This just inform you what is to expect before the update is released. This will 
 ## Update Information:
 
 ### Version:
-v4.0
+v4.4
 
 ### Device(s):
-komodo & caiman
+komodo & caiman, comet
 
 ### Build ETA Date (This date can change at anytime & does not indicate it's accurate availability):
 3/07/2025
 
 ### for build:
-crDroid 11.2 | 3/07/25
+crDroid 11.2 | 3/18/25
 
 # What's Changing:
 - Will be updating build prop to the latest crDroid release
+- Adding OnePlus Round & Square icon packs
+- Adding Cloudflare DNS for better speeds and block malware only
