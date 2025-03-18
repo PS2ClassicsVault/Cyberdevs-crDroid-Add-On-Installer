@@ -13,7 +13,7 @@ v4.4
 komodo & caiman, comet
 
 ### Build ETA Date (This date can change at anytime & does not indicate it's accurate availability):
-3/07/2025
+3/18/2025
 
 ### for build:
 crDroid 11.2 | 3/18/25
