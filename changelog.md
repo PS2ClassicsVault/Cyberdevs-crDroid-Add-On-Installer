@@ -1,3 +1,8 @@
+## Version v4.4 (komodo)
+- Adding OnePlus Round & Square icon packs
+- Adding Cloudflare DNS for better speeds and block malware only
+- Updated build prop to the latest crDroid build 11.2 03/24/2025.
+
 ## Version v4.3 (caiman)
 - Updated build prop to the latest crDroid build 11.2 03/14/2025.
 
