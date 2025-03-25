@@ -1,6 +1,6 @@
 ## Version v4.4 (komodo)
 - Adding OnePlus Round & Square icon packs
--Removed Cloudflare DNS as it conflicted with some apps working properly.
+- Removed Cloudflare DNS as it conflicted with some apps working properly.
 - Updated build prop to the latest crDroid beta build 11.2 03/25/2025.
 
 ## Version v4.3 (caiman)
