@@ -1,3 +1,6 @@
+## Version v4.5 (caiman)
+- Updated build prop to the latest crDroid build 11.3 04/05/2025.
+
 ## Version v4.4 (komodo)
 - Added OnePlus Round & Square icon packs
 - Updated build prop to the latest crDroid beta build 11.3 04/03/2025.
