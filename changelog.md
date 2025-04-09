@@ -1,3 +1,7 @@
+## Version v4.6 (komodo)
+- Updated build prop to the latest crDroid build 11.3 04/07/2025.
+- Removed One plus icon packs as they casued bootloop issues when users installed magisk modules
+
 ## Version v4.5 (komodo)
 - Updated build prop to the latest crDroid build 11.3 04/05/2025.
 
