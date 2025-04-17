@@ -46,9 +46,9 @@ When a new build is released the following things will revert back to stock unti
 To install you will need the following things:
 
 - PC/Laptop
-- Google OEM USB Drivers already installed
-- crDriod already installed with gapps installed as well (installed separately)
-- Up-To-Date platform-tools for adb functionality
+- Google OEM USB Drivers already installed, you do not have them you can download the drivers from [here](https://developer.android.com/studio/run/win-usb)
+- crDriod already installed with gapps installed as well (installed separately if you need the required gapps you can download them from [here](https://nikgapps.com/ionutgherman)) if you donot have crdroid and need it you may lookup to see if your device is supported by going [here](https://crdroid.net/)
+- Up-To-Date platform-tools for adb functionality (if you need the latest platform-tools you can download it from [here](https://technastic.com/android-sdk-platform-tools-download/)
 - crDroids custom recovery.
 
 ## NOTICE FOR FIRST TIME INSTALLING & UPDATING INSTALLERS:
@@ -68,3 +68,6 @@ If successful it will begin to run the installer, it will only take less than a 
 
 ### Answer:
 - If it doesn't show up in the play store you can download the update by visiting this [link](https://play.google.com/store/apps/details?id=com.google.android.odad) on your mobile device and choose to open via play store and the listing for GPPS listing will be displayed and you can update it from there.
+
+## DEVELOPMENT NOTICE:
+- This project is no longer being maintained, however i will keep this project up in case someone else wants to continue this project in their own as long as you credit me thanks!
