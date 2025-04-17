@@ -47,7 +47,7 @@ To install you will need the following things:
 
 - PC/Laptop
 - Google OEM USB Drivers already installed, you do not have them you can download the drivers from [here](https://developer.android.com/studio/run/win-usb)
-- crDriod already installed with gapps installed as well (installed separately if you need the required gapps you can download them from [here](https://nikgapps.com/ionutgherman)) if you donot have crdroid and need it you may lookup to see if your device is supported by going [here](https://crdroid.net/)
+- crDriod already installed with gapps installed as well (installed separately if you need the required gapps you can download them from [here](https://nikgapps.com/ionutgherman)) if you do not have crdroid and need it you may lookup to see if your device is supported by going [here](https://crdroid.net/)
 - Up-To-Date platform-tools for adb functionality (if you need the latest platform-tools you can download it from [here](https://technastic.com/android-sdk-platform-tools-download/)
 - crDroids custom recovery.
 
