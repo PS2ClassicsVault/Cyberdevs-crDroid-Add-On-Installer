@@ -1,0 +1,23 @@
+# crDroid 11.x Tweaks Magisk Module
+
+### Version:
+v1.9
+
+### Last Updated:
+04/17/25
+
+## Description
+This improves overall System performance without overheating and losing battery power for devices running crDroid 11.x or higher
+
+## Installation 
+1. Flash the module in Magisk
+3. Reboot
+4. Enjoy!
+
+## Requirements:
+- Magisk 20.4 or higher
+- Android 10 or higher
+- Rooted device
+
+## Changelog
+[View changelog here](https://github.com/PS2ClassicsVault/Cyberdevs-crDroid-Add-On-Installer/blob/main/magisk/changelog.md)
