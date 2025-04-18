@@ -106,8 +106,8 @@ compute_apps_size() {
 
 ui_print "*******************************"
 ui_print "          Cyberdev's           "
-ui_print "  crDroid 11.x 4/13/25 Add-On  "
-ui_print "         Installer v1.0        "
+ui_print "  crDroid 11.x 4/17/25 Add-On  "
+ui_print "         Installer v1.1        "
 ui_print "*******************************"
 
 ui_print "Extracting files"
