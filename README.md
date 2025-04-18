@@ -10,7 +10,7 @@ If your looking for build.prop tweaks for crDroid, we have converted the tweaks 
 
 There is important information you must be aware of before using the yhe magisk module:
 
-- This module is NOT compatible with APatch
+- This module is NOT compatible with APatch (we chose this because magisk is the most best and commen root method and majority of modules support it more then apatch does!)
 - This module requires you to be on magisk v20.4 or higher
 - Your version of crDroid must match the version we have available, if you do not have the right version installed you will encounter issues
 - The magisk module is not release date dependent its crDroid Version dependant such at 11.x etc.
