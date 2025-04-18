@@ -68,6 +68,3 @@ If successful it will begin to run the installer, it will only take less than a 
 
 ### Answer:
 - If it doesn't show up in the play store you can download the update by visiting this [link](https://play.google.com/store/apps/details?id=com.google.android.odad) on your mobile device and choose to open via play store and the listing for GPPS listing will be displayed and you can update it from there.
-
-## DEVELOPMENT NOTICE:
-- This project is no longer being maintained, however i will keep this project up in case someone else wants to continue this project in their own as long as you credit me thanks!
