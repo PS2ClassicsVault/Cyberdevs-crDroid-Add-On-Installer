@@ -1,7 +1,7 @@
 # crDroid 11.x Tweaks Magisk Module
 
 ### Version:
-v1.9
+v1.0
 
 ### Last Updated:
 04/17/25
