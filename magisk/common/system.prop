@@ -6,6 +6,9 @@
 # MULTI-CORE DEX OPT ENABLED #
 ##############################
 
+#crDroid configuration
+ro.crdroid.build.version=11.4 (crDroid Mod v1.0)
+
 # Dalvik VM for all architectures
 dalvik.vm.heaptargetutilization=0.75
 dalvik.vm.heaputilization=0.25
