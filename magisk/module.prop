@@ -1,8 +1,8 @@
 id=crDroid11Tweaks
-name=crDroid 11.x Tweaks
+name=crDroid 11.4 Tweaks
 version=v1.0
 versionCode=1
 author=Cyberdev
-description=Improves system performance on crDroid firmwares 11.x & higher (Android 10+)
+description=Improves system performance on crDroid firmwares 11.x & higher this version is for 11.4 (Android 10+)
 support=https://github.com/PS2ClassicsVault/Cyberdevs-crDroid-Add-On-Installer/issues
 updateJson=https://raw.githubusercontent.com/PS2ClassicsVault/Cyberdevs-crDroid-Add-On-Installer/refs/heads/main/magisk/update.json
