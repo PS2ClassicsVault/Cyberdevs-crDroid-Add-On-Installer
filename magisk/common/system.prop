@@ -6,15 +6,11 @@
 # MULTI-CORE DEX OPT ENABLED #
 ##############################
 
-#crDroid configuration
-ro.crdroid.build.version=11.4 (crDroid Mod v1.0)
-
 # Dalvik VM for all architectures
 dalvik.vm.heaptargetutilization=0.75
 dalvik.vm.heaputilization=0.25
 dalvik.vm.dexopt-flags=v=a,o=v,m=y,u=y
 dalvik.vm.stack-trace-file=/data/anr/traces.txt
-dalvik.vm.jmiopts=forcecopy
 dalvik.vm.execution-mode=int:jit
 persist.sys.dalvik.vm.lib=libart.so
 
@@ -29,6 +25,7 @@ ro.media.effect.bgdropper.adj=0.2
 
 # RAM configuration
 persist.sys.purgeable_assets=1
+debug.kill_allocating_task=0
 
 # Media configuration
 media.stagefright.enable-http=true
@@ -70,18 +67,8 @@ ro.media.dec.vid.H.264.enabled=1
 ro.media.enc.aud.flac.enabled=1
 ro.media.enc.vid.H.264.enabled=1
 persist.mm.enable.prefetch=true
-mm.enable.smoothstreaming=true
-mm.enable.sec.smoothstreaming=true
 persist.mm.sta.enable=1
 mm.mpeg4dp.hw.support=true
-drm.service.enabled=true
-persist.camera.HDR=true
-ro.config.camera.hdr=true
-persist.camera.HAL3.enabled=1
-ro.media.capture.flash=led
-ro.media.capture.flashMinV=3300000
-ro.media.capture.torchIntensity=65
-ro.media.capture.flashIntensity=70
 libplayer.livets.softdemux=1
 libplayer.netts.recalcpts=1
 media.libplayer.seek.fwdsearch=1
@@ -142,7 +129,7 @@ ro.networklocation.provider=1
 
 # Graphics configuration
 debug.egl.force_msaa=1
-debug.egl.buffcount=4
+debug.egl.buffcount=3
 ro.config.dha_tunable=1
 debug.composition.type=gpu
 persist.sys.composition.type=gpu
@@ -150,12 +137,12 @@ debug.egl.hw=1
 debug.sf.hw=1
 video.accelerate.hw=1
 ro.hdmi.enable=true
-persist.sys.ui.hw=true
+persist.sys.ui.hw=1
 debug.gr.numframebuffers=3
 
 # Display configuration 
 windowsmgr.max_events_per_sec=240
-windowsmgr.min_events_per_sec=60
+windowsmgr.min_events_per_sec=120
 ro.min_pointer_dur=8 
 ro.max.fling_velocity=12000
 ro.min.fling_velocity=8000
@@ -212,12 +199,10 @@ ro.ril.nr5g_scs=30
 persist.sys.radio.force_lte_ca=true
 persist.radio.lte_vrte_ltd=1
 persist.radio.lte_vrte=1
-persist.radio.lte_vrte_ltd=1
 ro.ril.hsxpa=3
 ro.ril.gprsclass=10
 ro.ril.hsdpa.category=10
 ro.ril.hsupa.category=6
-ro.ril.enable.3g.prefix=1
 ro.ril.enable.dtm=1
 ro.ril.gprsclass=12
 ro.ril.hsdpa.category=14
@@ -230,6 +215,13 @@ persist.radio.data_ltd_sys_ind=1
 persist.radio.data_con_rprt=1
 persist.radio.calls.on.ims=1
 persist.radio.VT_ENABLE=1
+ro.ril.enable.3g.prefix=1
+ro.ril.enable.4g.prefix=1
+ro.ril.enable.5g.prefix=1
+persist.dbg.ims_volte_enable=1
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
+persist.dbg.wfc_avail_ovr=1
 
 # Network configuration
 net.tcp.buffersize.default=4096,87380,256960, 4096, 16384,256960
@@ -290,6 +282,6 @@ log.tag.launcher_force_rotate=VERBOSE
 lockscreen.rot_override=true
 use.voice.path.for.pcm.voip=true
 ro.hardware.qemu=0
-ro.storage_manager.enabled=true
+ro.kernel.android.checkjni=0
 
 #####Cyberdev#####
