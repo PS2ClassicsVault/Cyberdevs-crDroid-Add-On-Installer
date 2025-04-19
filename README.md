@@ -38,9 +38,7 @@ The following applications/features are installed when you install this mod:
 - Xperia Play Live Wallpaper (PS3 Like Design)
 - Google Find My Device
 - Google Pixel Buds STUB (Updatable via the Google Play Store)
-- Google Gemini
 - LineageOS Icons (change icons in crdroid home settings)
-- Google Icons (change icons in crdroid home settings)
 - Updater App shortcut
 - YouTube
 
