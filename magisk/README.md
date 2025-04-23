@@ -1,10 +1,10 @@
 # crDroid 11.x Tweaks Magisk Module
 
 ### Version:
-v1.1
+v1.2
 
 ### Last Updated:
-04/19/25
+04/22/25
 
 ## Description
 This improves overall System performance without overheating and losing battery power for devices running crDroid 11.x or higher

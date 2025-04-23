@@ -3,7 +3,12 @@ https://www.paypal.me/CyberGamingStudios
 
 If you encounter bug or issue please submit a new issue ticket!
 
-# v1.1
+## v1.2
+- Improved UI & App load/usage performance.
+- Added tweaks for Audios & Bluetooth performance.
+- Redone media tweaks.
+
+## v1.1
 - Removed dupe tweaks.
 - Improved cellular connectivity via tweaks.
 - Added a tweak to fix app issues.
@@ -11,6 +16,6 @@ If you encounter bug or issue please submit a new issue ticket!
 - Removed custom crDroid Mod version to allow crdroid updates to work.
 - Made changes to media tweaks
 
-# v1.0
+## v1.0
 -Intial release
 
