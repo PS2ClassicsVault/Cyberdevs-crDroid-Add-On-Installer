@@ -27,6 +27,9 @@ ro.media.effect.bgdropper.adj=0.2
 persist.sys.purgeable_assets=1
 debug.kill_allocating_task=0
 
+# Boot configuration
+boot.fps=60
+
 # Media configuration
 media.stagefright.enable-http=true
 media.stagefright.enable-player=true
@@ -190,6 +193,7 @@ persist.ntp.timeout=5000
 wifi.supplicant_scan_interval=180
 persist.wifi_scan_interval=180
 ro.config.combined_signal=true
+ro.config.hw_new_wifitopdp=1
 
 # Google services configuration
 ro.com.google.maps.networklocation=1
@@ -256,6 +260,8 @@ TapInterval=1ms
 TapSlop=1px1
 ro.product.multi_touch_enabled=true
 ro.product.max_num_touch=2
+hw3d.force=1
+ro.product.gpu.driver=1
 
 # Cellular configuration
 ro.config.hw_fast_dormancy=1
@@ -383,5 +389,6 @@ ro.hwui.text_small_cache_height=2048
 ro.hwui.text_large_cache_width=4096
 ro.hwui.text_large_cache_height=4096
 ro.hwui.fbo_cache_size=16
+hwui.disable_vsync=true
 
 #####Cyberdev#####
