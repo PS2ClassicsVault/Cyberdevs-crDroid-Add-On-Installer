@@ -4,4 +4,4 @@ version=v1.0
 versionCode=1
 author=Cyberdev
 description=Add variety of icon packs, alarms, notification, ringing, ui sounds & live wallpapers etc. (Android 10+).
-updateJson=url
+updateJson=https://raw.githubusercontent.com/PS2ClassicsVault/Cyberdevs-crDroid-Add-On-Installer/refs/heads/main/UCM/update.json
