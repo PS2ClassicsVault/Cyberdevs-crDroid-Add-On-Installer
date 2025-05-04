@@ -18,6 +18,7 @@ Installs custom icon packs, audio sounds for alarms, notifications ringtones UI 
 - Magisk 20.4 or higher
 - Android 10 or higher
 - Rooted device
+- Arch: arm64-v8a (arm/armeabi-v7a is not supported)
 
 ## Changelog
-[View changelog here](url)
+[View changelog here](https://github.com/PS2ClassicsVault/Cyberdevs-crDroid-Add-On-Installer/blob/main/UCM/changelog.md)
