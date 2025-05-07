@@ -1,10 +1,10 @@
 # Ultimate Customization Mod Systemless Magisk Module
 
 ### Version:
-v1.0
+v1.1
 
 ### Last Updated:
-05/04/25
+05/06/25
 
 ## Description
 Installs custom icon packs, audio sounds for alarms, notifications ringtones UI sounds and live wallpapers.
