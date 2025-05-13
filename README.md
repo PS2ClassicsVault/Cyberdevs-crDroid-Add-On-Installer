@@ -32,11 +32,8 @@ The following applications/features are installed when you install this mod:
 - Gmail
 - Google Play Protect Service STUB
 - Google Play Games
-- Google Pixel 2,3 & 4 Live Wallpapers
-- Xperia Play Live Wallpaper (PS3 Like Design)
 - Google Find My Device
 - Google Pixel Buds STUB (Updatable via the Google Play Store)
-- LineageOS Icons (change icons in crdroid home settings)
 - Updater App shortcut
 - YouTube
 
