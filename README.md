@@ -8,7 +8,7 @@ This mod allows you to mod crDroid 11.x and adds additional new apps that NikGap
 ## Need the tweaks for crDroid?..Please read!
 If your looking for build.prop tweaks for crDroid, we have converted the tweaks into a magisk module, you can download the magisk module from [here](https://github.com/PS2ClassicsVault/Cyberdevs-crDroid-Add-On-Installer/releases)
 
-There is important information you must be aware of before using the yhe magisk module:
+There is important information you must be aware of before using the the magisk module:
 
 - This module is NOT compatible with APatch (we chose this because magisk is the most best and commen root method and majority of modules support it more then apatch does!)
 - This module requires you to be on magisk v20.4 or higher
