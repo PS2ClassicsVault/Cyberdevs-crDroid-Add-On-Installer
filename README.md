@@ -8,11 +8,13 @@ This mod allows you to mod crDroid 11.x and adds additional new apps that NikGap
 ## Need the tweaks for crDroid?..Please read!
 If your looking for build.prop tweaks for crDroid, we have converted the tweaks into a magisk module, you can download the magisk module from [here](https://github.com/PS2ClassicsVault/Cyberdevs-crDroid-Add-On-Installer/releases)
 
-There is important information you must be aware of before using the the magisk module:
+There is important information you must be aware of before using the yhe magisk module:
 
-- This module is NOT compatible with APatch (we chose this because magisk is the most best and commen root method and majority of modules support it more then apatch does!).
-- This module requires you to be on magisk v20.4 or higher.
-- Your must be crDroid OS, though the modules we provide as a whole can install on other non crdroid operating systems, we exclusively test our tweaks on crDroid, This module is not version dependent!
+- This module is NOT compatible with APatch (we chose this because magisk is the most best and commen root method and majority of modules support it more then apatch does!)
+- This module requires you to be on magisk v20.4 or higher
+- Your version of crDroid must match the version we have available, if you do not have the right version installed you will encounter issues
+- The magisk module is not release date dependent its crDroid Version dependant such at 11.x etc.
+- When using this module you will lose the ability to install updates via OTA unless you disable the magisk module first, reboot and then perform the installation.
 
 ## Limitations:
 This mod has limitations that require us to inform  you before using this mod these limitations are as follows:
@@ -32,8 +34,11 @@ The following applications/features are installed when you install this mod:
 - Gmail
 - Google Play Protect Service STUB
 - Google Play Games
+- Google Pixel 2,3 & 4 Live Wallpapers
+- Xperia Play Live Wallpaper (PS3 Like Design)
 - Google Find My Device
 - Google Pixel Buds STUB (Updatable via the Google Play Store)
+- LineageOS Icons (change icons in crdroid home settings)
 - Updater App shortcut
 - YouTube
 
