@@ -106,8 +106,8 @@ compute_apps_size() {
 
 ui_print "*******************************"
 ui_print "          Cyberdev's           "
-ui_print "  crDroid 11.x 6/08/25 Add-On  "
-ui_print "         Installer v1.3        "
+ui_print "  crDroid 11.x 6/23/25 Add-On  "
+ui_print "         Installer v1.4        "
 ui_print "*******************************"
 
 ui_print "Extracting files"
@@ -291,7 +291,6 @@ ui_print "Installing YouTube.."
 ui_print "Installing Updater Shourtcut.."
 ui_print "Installing Google Pixel Buds STUB.."
 ui_print "Installing Google Wallet.."
-ui_print "Installing Gemini.."
 ui_print "Installing Pixel 9 Stock Bootanimation.."
 ui_print "Installing required app permissions.."
 cp --preserve=a -r ./* "${SYSTEM_OUT}/"
