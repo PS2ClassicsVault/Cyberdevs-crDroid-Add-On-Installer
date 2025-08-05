@@ -106,11 +106,20 @@ compute_apps_size() {
 
 ui_print "*******************************"
 ui_print "          Cyberdev's           "
-ui_print "  crDroid 11.x 6/23/25 Add-On  "
-ui_print "         Installer v1.4        "
+ui_print "  crDroid 11.x 8/05/25 Add-On  "
+ui_print "         Installer v1.5        "
+ui_print ".      Android 15 SDK 35       "
+ui_print "*******************************"
+ui_print "*******************************"
+ui_print "*******************************"
+ui_print "       CHANGELOG (v1.5):       "
+ui_print "     - Added Pixel STUB        "
+ui_print " - Added Changelog to binary   "
+ui_print ".- Rehauled the binary code    "
 ui_print "*******************************"
 
-ui_print "Extracting files"
+ui_print "Installation Progress:1%"
+ui_print "Extracting files to a temporary folder.."
 TMP=/tmp
 cd "$TMP"
 unzip -o "$ZIP"
@@ -125,7 +134,8 @@ if [ $GAPPS_ARCH != $CPU_ARCH ]; then
   error "This package is built for $GAPPS_ARCH but your device is $CPU_ARCH! Aborting"
 fi
 
-ui_print "Setting up environment"
+ui_print "Installation Progress:20%"
+ui_print "Setting up environment to install files..."
 TOYBOX="${TMP}/toybox"
 chmod +x "$TOYBOX"
 
@@ -137,12 +147,15 @@ for toy in $($TOYBOX); do
 done
 PATH="${TOYS_PATH}:${PATH}"
 
-ui_print "Mounting partitions"
+ui_print "Installation Progress:30%"
+ui_print "Mounting required partitions"
 
 # Ensure system is unmounted so mounting succeeds
 umount /system || umount /mnt/system || true
 umount /product || true
 umount /system_ext || true
+
+ui_print "Installation Progress:40%"
 
 # Find partitions
 DYNAMIC_PARTITIONS=`getprop ro.boot.dynamic_partitions`
@@ -165,6 +178,8 @@ SYSTEM_BLOCK=$(find_block "system")
 PRODUCT_BLOCK=$(find_block "product")
 SYSTEM_EXT_BLOCK=$(find_block "system_ext")
 
+ui_print "Installation Progress:50%"
+
 # Disable rw protection on dynamic partitions
 if [ "$DYNAMIC_PARTITIONS" = "true" ]; then
   blockdev --setrw "$SYSTEM_BLOCK"
@@ -186,6 +201,8 @@ error_mounting "$SYSTEM_MNT"
 fi
 SYSTEM_OUT="${SYSTEM_MNT}/system"
 
+ui_print "Installation Progress:60%"
+
 # Compare sdk version
 GAPPS_VERSION=$(getprop2 $TMP/build.prop version)
 ANDROID_VERSION=$(getprop2 $SYSTEM_OUT/build.prop ro.build.version.sdk)
@@ -194,6 +211,8 @@ if [ "$GAPPS_VERSION" != "$ANDROID_VERSION" ]; then
   android_version_nice=$(getprop2 $SYSTEM_OUT/build.prop ro.build.version.release)
   error "This package is for Android $gapps_version_nice (SDK $GAPPS_VERSION) but your system is Android $android_version_nice (SDK $ANDROID_VERSION)! Aborting"
 fi
+
+ui_print "Installation Progress:70%"
 
 # Ignore {product,system_ext} block devices in case they are symlinks
 # This is common on devices where maintainers have chosen not to use
@@ -221,6 +240,8 @@ if [ -n "$SYSTEM_EXT_BLOCK" ]; then
     error_mounting "/system_ext"
   fi
 fi
+
+ui_print "Installation Progress:80%"
 
 # Compute storage requirements
 SYSTEM_STORAGE=`df $SYSTEM_MNT | tail -1 | tr -s ' ' | cut -d ' ' -f4`
@@ -258,6 +279,7 @@ if [ -n "$SYSTEM_EXT_BLOCK" ] && [ "$SYSTEM_EXT_STORAGE" -lt "$NEEDED_STORAGE_SY
   fi
 fi
 
+ui_print "Installation Progress:85%"
 ui_print "Generating addon.d file"
 cat addon.d/addond_head > addon.d/30-gapps.sh
 for f in `find . ! -path "./addon.d/*" -type f`; do
@@ -267,6 +289,7 @@ done
 cat addon.d/addond_tail >> addon.d/30-gapps.sh
 rm addon.d/addond_head addon.d/addond_tail
 
+ui_print "Installation Progress:90%"
 ui_print "Preparing files for installation..."
 for d in `find . -mindepth 1 -type d -type d`; do
   set_perm 0755 $d
@@ -283,6 +306,7 @@ for f in `find . -type f`; do
   set_con system_file $f
 done
 
+ui_print "Installation Progress:95%"
 ui_print "Installing crDroid 11.x Mod, Please wait.."
 ui_print "Installing Google Play Protect STUB.."
 ui_print "Installing Gmail..."
@@ -290,6 +314,7 @@ ui_print "Installing Google Find My Device.."
 ui_print "Installing YouTube.."
 ui_print "Installing Updater Shourtcut.."
 ui_print "Installing Google Pixel Buds STUB.."
+ui_print "Installing Pixel VIPs STUB.."
 ui_print "Installing Google Wallet.."
 ui_print "Installing Pixel 9 Stock Bootanimation.."
 ui_print "Installing required app permissions.."
@@ -309,5 +334,6 @@ cleanup
 
 ui_print "Cleaning up before finishing installation..."
 ui_print "Cleanup finished."
+ui_print "Installation Progress:100%"
 ui_print "Installation completed..Enjoy!"
 exit 0
