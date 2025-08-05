@@ -33,6 +33,7 @@ The following applications/features are installed when you install this mod:
 - Google Wallet
 - Gmail
 - Google Play Protect Service STUB
+- Google VIPs STUB
 - Google Find My Device
 - Google Pixel Buds STUB (Updatable via the Google Play Store)
 - Updater App shortcut
