@@ -1,5 +1,14 @@
 This version includes the following changes
 
+## v1.5
+- Added Pixel VIPs STUB
+- Added changelog to binary
+- Rehauled the binary
+
+## v1.4
+- Fixed a issue in the updater-binary text where it would display text that gemini was being installed but in reality it wasn't.
+- Updated permission with the appropriate `app-permissions-` & `privapp-permissions-` in their file names
+
 ## v1.3
 - Removed Google Play Games this decision was because 
  now used more storage space and was soft bricking devices this will give 17mb free space to crdroid.
