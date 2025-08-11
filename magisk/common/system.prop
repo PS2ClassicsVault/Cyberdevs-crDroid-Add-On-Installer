@@ -227,6 +227,15 @@ video.accelerate.hw=1
 ro.hdmi.enable=true
 persist.sys.ui.hw=1
 debug.gr.numframebuffers=3
+ro.launcher.blur.appLaunch=0
+ro.surface_flinger.supports_background_blur=0
+ro.sf.blurs_are_expensive=0
+persist.sys.sf.disable_blurs=true
+enable_blurs_on_windows=0
+disableBlurs=true
+ro.sf.blurs_are_caro=1
+ro.miui.has_real_blur=0
+persist.sys.background_blur_supported=false
 
 # Display configuration 
 windowsmgr.max_events_per_sec=500
