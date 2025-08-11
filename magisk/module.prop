@@ -1,7 +1,7 @@
 id=crDroid11Tweaks
-name=crDroid 11.x Tweaks
-version=v1.5
-versionCode=6
+name=crDroid 11.x/12.x Tweaks
+version=v1.6
+versionCode=7
 author=Cyberdev
 description=Improves system performance on crDroid firmwares 11.x & higher (Android 10+) - Not KSU/AP Compatible!
 support=https://github.com/PS2ClassicsVault/Cyberdevs-crDroid-Add-On-Installer/issues

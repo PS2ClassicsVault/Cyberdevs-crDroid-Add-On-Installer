@@ -3,6 +3,9 @@ https://www.paypal.me/CyberGamingStudios
 
 If you encounter bug or issue please submit a new issue ticket!
 
+## v1.6
+- Disabled blur system wide for better performance.
+
 ## v1.5
 - Improved audio processing performance.
 - Fixed an issue with devices using Dolby codecs
