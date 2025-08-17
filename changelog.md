@@ -1,5 +1,8 @@
 This version includes the following changes
 
+## v1.6
+- Updated installer to support 12.x A16
+
 ## v1.5
 - Added Pixel VIPs STUB
 - Added changelog to binary
