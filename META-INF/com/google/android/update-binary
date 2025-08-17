@@ -112,7 +112,7 @@ ui_print ".      Android 16 SDK 36       "
 ui_print "*******************************"
 ui_print "*******************************"
 ui_print "*******************************"
-ui_print "       CHANGELOG (v1.5):       "
+ui_print "       CHANGELOG (v1.6):       "
 ui_print "    - Added support for A16    "
 ui_print "*******************************"
 
