@@ -409,5 +409,22 @@ use.voice.path.for.pcm.voip=true
 ro.hardware.qemu=0
 ro.kernel.android.checkjni=0
 persist.sys.usb.config=mass_storage
+ro.boot.wificountrycode=00
+persist.sys.axion_cpu_big=4,5,6,7
+persist.sys.axion_cpu_small=0,1,2,3
+persist.sys.axion_cpu_bg=0-2
+persist.sys.axion_cpu_limit_bg=0-1
+persist.sys.axion_cpu_fg=0-7
+persist.sys.axion_cpu_limit_ui=0-4
+persist.sys.axion_cpu_unlimit_ui=0-7
+persist.sys.axion_cpu_audio=0-3
+persist.sys.axion_cpu_display=4-7
+dalvik.vm.dex2oat-threads=6
+dalvik.vm.restore-dex2oat-threads=6
+dalvik.vm.dex2oat-cpu-set=0,1,2,3,4,5,6
+dalvik.vm.restore-dex2oat-cpu-set=0,1,2,3,4,5,6
+debug.atrace.tags.enableflags=0
+persist.traced.enable=1
+ro.surface_flinger.game_default_frame_rate_override=60
 
 #####Cyberdev#####
