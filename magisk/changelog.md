@@ -3,6 +3,10 @@ https://www.paypal.me/CyberGamingStudios
 
 If you encounter bug or issue please submit a new issue ticket!
 
+## v1.7
+- Added axion cpu config
+- Set disable default frame rate for games to enable for games to be played at 60Hz
+
 ## v1.6
 - Disabled blur system wide for better performance.
 
