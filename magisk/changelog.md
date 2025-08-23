@@ -3,10 +3,13 @@ https://www.paypal.me/ps2cv
 
 If you encounter bug or issue please submit a new issue ticket!
 
+## v1.8
+- Fixed wording typos in module
+- Updated installer typos
+
 ## v1.7
 - Added axion cpu config
 - Set disable default frame rate for games to enable for games to be played at 60Hz
-- Improved cpu utilization
 
 ## v1.6
 - Disabled blur system wide for better performance.
