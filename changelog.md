@@ -1,5 +1,10 @@
 This version includes the following changes
 
+## v1.7
+- Added Google Fi
+- Removed GWallet
+- Overhauled installer
+
 ## v1.6
 - Updated installer to support 12.x A16
 
