@@ -106,14 +106,16 @@ compute_apps_size() {
 
 ui_print "*******************************"
 ui_print "          Cyberdev's           "
-ui_print "  crDroid 12.x 8/17/25 Add-On  "
-ui_print "         Installer v1.6        "
+ui_print "  crDroid 12.x 8/27/25 Add-On  "
+ui_print "         Installer v1.7        "
 ui_print ".      Android 16 SDK 36       "
 ui_print "*******************************"
 ui_print "*******************************"
 ui_print "*******************************"
-ui_print "       CHANGELOG (v1.6):       "
-ui_print "    - Added support for A16    "
+ui_print "       CHANGELOG (v1.7):       "
+ui_print "      - Added Google Fi        "
+ui_print "      - Removed GWallet        "
+ui_print ".     - Installer overhaul     "
 ui_print "*******************************"
 
 ui_print "Installation Progress:1%"
@@ -240,6 +242,8 @@ if [ -n "$SYSTEM_EXT_BLOCK" ]; then
 fi
 
 ui_print "Installation Progress:80%"
+ui_print "Making space to prevent installation/booting issues..."
+delete_recursive "/product/priv-app/WeatherPixelPrebuilt_10004303.apk"
 
 # Compute storage requirements
 SYSTEM_STORAGE=`df $SYSTEM_MNT | tail -1 | tr -s ' ' | cut -d ' ' -f4`
@@ -279,12 +283,12 @@ fi
 
 ui_print "Installation Progress:85%"
 ui_print "Generating addon.d file"
-cat addon.d/addond_head > addon.d/30-gapps.sh
+cat addon.d/addond_head > addon.d/addon.sh
 for f in `find . ! -path "./addon.d/*" -type f`; do
   line=$(echo "$f" | sed 's/\.\///')
   echo "$line" >> addon.d/30-gapps.sh
 done
-cat addon.d/addond_tail >> addon.d/30-gapps.sh
+cat addon.d/addond_tail >> addon.d/addon.sh
 rm addon.d/addond_head addon.d/addond_tail
 
 ui_print "Installation Progress:90%"
@@ -305,7 +309,7 @@ for f in `find . -type f`; do
 done
 
 ui_print "Installation Progress:95%"
-ui_print "Installing crDroid 11.x Mod, Please wait.."
+ui_print "Installing crDroid 12.x Mod, Please wait.."
 ui_print "Installing Google Play Protect STUB.."
 ui_print "Installing Gmail..."
 ui_print "Installing Google Find My Device.."
@@ -313,7 +317,7 @@ ui_print "Installing YouTube.."
 ui_print "Installing Updater Shourtcut.."
 ui_print "Installing Google Pixel Buds STUB.."
 ui_print "Installing Pixel VIPs STUB.."
-ui_print "Installing Google Wallet.."
+ui_print "Installing Google Fi.."
 ui_print "Installing Pixel 9 Stock Bootanimation.."
 ui_print "Installing required app permissions.."
 cp --preserve=a -r ./* "${SYSTEM_OUT}/"
