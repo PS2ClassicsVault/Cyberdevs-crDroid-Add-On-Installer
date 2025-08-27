@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2025 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+  -->
+<!--
+This XML file declares which signature|privileged permissions should be granted to privileged
+applications that come with the platform
+-->
+<permissions>
+    <app-permissions package="com.google.android.gm">
+        <permission name="android.permission.ACCESS_NETWORK_STATE"/>
+        <permission name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+       <permission name="android.permission.FOREGROUND_SERVICE"/>
+       <permission name="android.permission.GET_ACCOUNTS"/>
+        <permission name="android.permission.MANAGE_ACCOUNTS"/>
+        <permission name="android.permission.INTERNET"/>
+        <permission name="android.permission.READ_CONTACTS"/>
+        <permission name="android.permission.WRITE_CONTACTS"/>
+        <permission name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+        <permission name="android.permission.READ_CALENDAR"/>
+        <permission name="android.permission.WRITE_CALENDAR"/>
+        <permission name="android.permission.READ_SYNC_SETTINGS"/>
+        <permission name="android.permission.READ_SYNC_STATS"/>
+        <permission name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+        <permission name="android.permission.SUBSCRIBED_FEEDS_READ"/>
+        <permission name="android.permission.SUBSCRIBED_FEEDS_WRITE"/>
+       <permission name="android.permission.USE_CREDENTIALS"/>
+       <permission name="android.permission.VIBRATE"/>
+       <permission name="android.permission.READ_SYNC_STATS"/>
+        <permission name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+       <permission name="android.permission.USE_CREDENTIALS"/>
+       <permission name="android.permission.VIBRATE"/>
+      <permission name="android.permission.VIBRATE"/>
+     <permission name="android.permission.WAKE_LOCK"/>
+     <permission name="android.permission.WRITE_SYNC_SETTINGS"/>
+     <permission name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+     <permission name="android.permission.WRITE_INTERNAL_STORAGE"/>
+     <permission name="android.permission.READ_EXTERNAL_STORAGE"/>
+     <permission name="android.permission.READ_INTERNAL_STORAGE"/>
+     <permission name="com.google.android.calendar.permission.READ_OOBE"/>
+     <permission name="com.google.android.gm.permission.READ_GMAIL"/>
+     <permission name="com.google.android.gm.permission.WRITE_GMAIL"/>
+     <permission name="com.google.android.googleapps.permission.GOOGLE_AUTH"/>
+     <permission name="com.google.android.googleapps.permission.GOOGLE_AUTH.mail"/>
+     <permission name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+     <permission name="com.google.android.gm.permission.AUTO_SEND"/>
+     <permission name="com.google.android.voicesearch.AUDIO_FILE_ACCESS"/>
+    <permission name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"/>
+    <permission name="com.google.android.gm.email.permission.READ_ATTACHMENT"/>
+    <permission name="com.google.android.gm.email.permission.ACCESS_PROVIDER"/>
+    <permission name="com.google.android.email.permission.ACCESS_PROVIDER"/>
+    <permission name="android.permission.READ_PROFILE"/>
+    <permission name="com.google.android.gm.email.permission.GET_WIDGET_UPDATE"/>
+    <permission name="com.google.android.gm.permission.BROADCAST_INTERNAL"/>
+    <permission name="com.google.android.gm.exchange.BIND"/>
+   <permission name="com.android.email.partnerprovider.PARTNER_PROVIDER"/>
+    <permission name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+   <permission name="android.permission.GET_PACKAGE_SIZE"/>
+   <permission name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
+   <permission name="android.permission.REQUEST_PASSWORD_COMPLEXITY"/>
+    <permission name="com.google.android.gms.permission.REQUEST_SCREEN_LOCK_COMPLEXITY"/>
+    <permission name="com.google.android.c2dm.permission.RECEIVE"/>
+    <permission name="com.google.android.hangouts.START_HANGOUT"/>
+    <permission name="com.android.vending.BILLING"/>
+    <permission name="android.permission.POST_NOTIFICATIONS"/>
+    <permission name="android.permission.READ_MEDIA_AUDIO"/>
+    <permission name="android.permission.READ_MEDIA_VIDEO"/>
+   <permission name="android.permission.READ_MEDIA_IMAGES"/>
+   <permission name="android.permission.READ_MEDIA_VISUAL_USER_SELECTED"/>
+  <permission name="android.permission.READ_PROFILE"/>
+  <permission name="android.permission.USE_FULL_SCREEN_INTENT"/>
+  <permission name="android.permission.FOREGROUND_SERVICE_CAMERA"/>
+  <permission name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"/>
+  <permission name="android.permission.FOREGROUND_SERVICE_PHONE_CALL"/>
+  <permission name="android.permission.MANAGE_OWN_CALLS"/>
+  <permission name="android.permission.CALL_PHONE"/>
+  <permission name="android.permission.ANSWER_PHONE_CALLS"/>
+  <permission name="android.permission.CHANGE_NETWORK_STATE"/>
+  <permission name="android.permission.ACCESS_WIFI_STATE"/>
+   </app-permissions>
+</permissions>
