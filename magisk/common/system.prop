@@ -219,8 +219,8 @@ ro.networklocation.provider=1
 debug.egl.force_msaa=1
 debug.egl.buffcount=3
 ro.config.dha_tunable=1
-debug.composition.type=dyn
-persist.sys.composition.type=dyn
+debug.composition.type=gpu
+persist.sys.composition.type=gpu
 debug.egl.hw=1
 debug.sf.hw=1
 video.accelerate.hw=1
@@ -296,7 +296,6 @@ ro.ril.gprsclass=12
 ro.ril.hsdpa.category=14
 ro.ril.hsupa.category=6
 net.tethering.noproxy=true
-ro.carrier=Unknown
 persist.radio.volte.dan_support=true
 persist.radio.rat_on=combine
 persist.radio.data_ltd_sys_ind=1
@@ -310,7 +309,6 @@ persist.dbg.ims_volte_enable=1
 persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
 persist.dbg.wfc_avail_ovr=1
-ro.telephony.default_network=24
 
 # Network configuration
 net.tcp.buffersize.default=4096,87380,256960, 4096, 16384,256960
