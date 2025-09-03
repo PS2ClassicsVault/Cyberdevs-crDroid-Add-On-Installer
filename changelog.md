@@ -1,5 +1,10 @@
 This version includes the following changes
 
+## v1.8
+- Added more sysconfig files
+- Fixed random reboots
+
+
 ## v1.7
 - Added Google Fi
 - Removed GWallet
