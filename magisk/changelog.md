@@ -3,6 +3,9 @@ https://www.paypal.me/ps2cv
 
 If you encounter bug or issue please submit a new issue ticket!
 
+## v2.1
+- Remade cellular tweaks
+
 ## v2.0
 - Improved cellular network
 - Improved gpu performance
