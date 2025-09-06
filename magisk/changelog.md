@@ -3,6 +3,11 @@ https://www.paypal.me/ps2cv
 
 If you encounter bug or issue please submit a new issue ticket!
 
+## v2.2
+- Improved Bluetooth stability
+- Added controller tweaks
+- Reduced audio sample rate to 48KHz
+
 ## v2.1
 - Remade cellular tweaks
 
