@@ -28,7 +28,7 @@ REPLACE="
 print_modname() {
   ui_print "*******************************"
   ui_print "       crDroid 11.x/12.x       "
-  ui_print "    By Cyberdev | Ver: v2.2    "
+  ui_print "    By Cyberdev | Ver: v2.3    "
   ui_print "*******************************"
 }
 

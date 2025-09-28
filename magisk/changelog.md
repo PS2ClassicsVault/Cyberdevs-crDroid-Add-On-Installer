@@ -3,6 +3,12 @@ https://www.paypal.me/ps2cv
 
 If you encounter bug or issue please submit a new issue ticket!
 
+## v2.3
+- Set Vulkan to be default GPU renderer.
+- Improved auto quality
+- Improved network connection.
+- Set windowmgr to 60min and 120fos max
+
 ## v2.2
 - Improved Bluetooth stability
 - Added controller tweaks

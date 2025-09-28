@@ -1,6 +1,6 @@
 {
-  "version": "v2.2",
-  "versionCode": 13,
-  "zipUrl": "https://github.com/PS2ClassicsVault/Cyberdevs-crDroid-Add-On-Installer/releases/download/2.2/crDroid_11.x-12.x_Tweaks-v2.2.zip",
+  "version": "v2.3",
+  "versionCode": 14,
+  "zipUrl": "https://github.com/PS2ClassicsVault/Cyberdevs-crDroid-Add-On-Installer/releases/download/2.3/crDroid_11.x-12.x_Tweaks-v2.3.zip",
   "changelog": "https://raw.githubusercontent.com/PS2ClassicsVault/Cyberdevs-crDroid-Add-On-Installer/refs/heads/main/magisk/changelog.md"
 }
