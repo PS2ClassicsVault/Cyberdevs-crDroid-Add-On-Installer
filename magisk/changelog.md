@@ -7,7 +7,7 @@ If you encounter bug or issue please submit a new issue ticket!
 - Set Vulkan to be default GPU renderer.
 - Improved auto quality
 - Improved network connection.
-- Set windowmgr to 60min and 120fos max
+- Set windowmgr to 60min and 120fps max
 
 ## v2.2
 - Improved Bluetooth stability
